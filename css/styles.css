@@ -1,0 +1,73 @@
+body{
+    background-image: url(../images/backgrounds-blank-blue-953214.jpg);
+    background-size: cover;
+}
+#signbox{
+    padding:30px;
+    top:150px;
+    background-color:rgba(250,250,250,.7);
+    border-color:3px black;
+    border-radius:6px;
+    box-shadow:6px 8px 15px #000000;
+    font-size: 16px;
+    text-align:left;
+    min-width:250px;
+}
+.boxwidth{
+    margin: 0 auto;
+}
+.inputbox{
+    padding:5px;  
+}
+.linkdecor{
+    list-style-type: none; 
+}
+.btnsize{
+    min-width:100px;
+}
+/* ------------------home page */
+.inputback{
+    background-image: url(../images/bricks-brickwall-brickwork-1092364.jpg);
+    background-size:cover; 
+}
+.filter_spac{
+    border-radius:3px;
+    padding: 10px;
+    min-width: 200px;
+}
+.formspacing{
+    padding:3px;
+}
+.marginall{
+    margin:10px 0px 10px 10px;
+} 
+@media(min-width:769px){
+    .flexfilter{
+        display:flex;
+        width:200px;
+        margin-right:10px;
+    }
+    .flextest{
+        display:flex;
+        flex-direction:column;
+        margin-right:10px;
+    }
+}
+
+
+@media(max-width:768px){
+    .mobile{
+        display:flex;
+        flex-direction:column;
+    }
+    .flexfilter{
+        display:flex;
+        margin-right:10px;
+    }
+    .flextest{
+        display:flex;
+        flex-direction:column;
+        margin:10px 10px 0px 0px;
+    
+    }
+}

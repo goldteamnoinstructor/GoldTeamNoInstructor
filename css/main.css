@@ -1,0 +1,260 @@
+.filters {
+    float: left;
+    clear: right;
+    height:100%;
+}
+
+.drugs {
+    display: flex;
+    flex-direction: row;
+    background-image: linear-gradient(to right, aliceblue, whitesmoke);
+    border-style: solid;
+    border-width: 1px;
+    border-radius: 10px;
+    margin-bottom: 10px;
+}
+
+.condition {
+    display: flex;
+    flex-direction: row;
+    background-image: linear-gradient(to right, #feffb3, #f5f5da);
+    border-style: solid;
+    border-width: 1px;
+    border-radius: 10px;
+    margin-bottom: 10px;
+}
+
+.heart {
+    display: flex;
+    flex-direction: row;
+    background-image: linear-gradient(to right, #ffb8b3, #f58a89);
+    border-style: solid;
+    border-width: 1px;
+    border-radius: 10px;
+    margin-bottom: 10px;
+}
+
+.std {
+    display: flex;
+    flex-direction: row;
+    background-image: linear-gradient(to right, #c7ffb9, #a3f5ed);
+    border-style: solid;
+    border-width: 1px;
+    border-radius: 10px;
+    margin-bottom: 10px;
+}
+
+.disability {
+    display: flex;
+    flex-direction: row;
+    background-image: linear-gradient(to right, #2a36ff, #f5f5f5);
+    border-style: solid;
+    border-width: 1px;
+    border-radius: 10px;
+    margin-bottom: 10px;
+}
+
+.pic {
+    height: 348px;
+    width: auto;
+    border-radius: 10px;
+    margin-right: 20px;
+}
+
+.titleAndText {
+    display: flex;
+    flex-direction: column;
+    flex:2;
+}
+
+.rightHalf {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
+
+.blurb {
+    flex: 1;
+}
+
+.links {
+    flex: 1;
+}
+
+.title {
+    text-align: center;
+}
+.picContainer{
+    flex:1;
+}
+
+@media(max-width:992px){
+    
+    .drugs {
+        display: flex;
+        flex-direction: column;
+        background-image: linear-gradient(to right, aliceblue, whitesmoke);
+        border-style: solid;
+        border-width: 1px;
+        border-radius: 10px;
+        margin-bottom: 10px;
+    }
+    
+    .condition {
+        display: flex;
+        flex-direction: column;
+        background-image: linear-gradient(to right, #feffb3, #f5f5da);
+        border-style: solid;
+        border-width: 1px;
+        border-radius: 10px;
+        margin-bottom: 10px;
+    }
+    
+    .heart {
+        display: flex;
+        flex-direction: column;
+        background-image: linear-gradient(to right, #ffb8b3, #f58a89);
+        border-style: solid;
+        border-width: 1px;
+        border-radius: 10px;
+        margin-bottom: 10px;
+    }
+    
+    .std {
+        display: flex;
+        flex-direction: column;
+        background-image: linear-gradient(to right, #c7ffb9, #a3f5ed);
+        border-style: solid;
+        border-width: 1px;
+        border-radius: 10px;
+        margin-bottom: 10px;
+    }
+    
+    .disability {
+        display: flex;
+        flex-direction: column;
+        background-image: linear-gradient(to right, #2a36ff, #f5f5f5);
+        border-style: solid;
+        border-width: 1px;
+        border-radius: 10px;
+        margin-bottom: 10px;
+    }
+    
+    .titleAndText {
+        display: flex;
+        flex-direction: column;
+        flex:2;
+        margin:15px;
+    }
+    .picContainer{
+        background-image:url(/images/drugs.jpeg);
+        background-size:cover;
+        flex:1;
+        width:auto;
+        justify-content:space-around;
+    }
+    .pic {
+        max-height: 350px;
+        width: auto;
+        border-radius: 10px;
+        margin-right: 20px;
+       
+
+    }
+}
+
+/******************************** CODE GRAVEYARD ******************************************************/
+
+
+/*.cardBox {*/
+/*display: flex;*/
+/*float: right;*/
+/*padding-bottom: 45px;*/
+/*}*/
+
+/*.drugCard {*/
+/*flex: 1;*/
+/*height: 350px;*/
+/*border-style: solid;*/
+/*border-width: 1px;*/
+/*border-radius: 10px;*/
+/*background-image: linear-gradient(to right, aliceblue, whitesmoke);*/
+/*}*/
+
+/*.cardContainer {*/
+/*display: flex;*/
+/*flex-direction: row;*/
+/*justify-content: space-between;*/
+/*padding: 0 2% 0 0;*/
+/*}*/
+
+/*.cardTitle {*/
+/*text-align: center;*/
+/*padding-bottom: 10px;*/
+/*margin-left: 37%;*/
+/*}*/
+
+/*.cardPic {*/
+/*flex: 1;*/
+/*justify-self: left;*/
+/*//border-style: solid;*/
+/*}*/
+
+/*.cardBlurb {*/
+/*flex: 1;*/
+/*//border-style: solid;*/
+
+/*}*/
+
+/*.cardLinks {*/
+/*flex: 1;*/
+/*//border-style: solid;*/
+
+/*}*/
+
+
+
+/*#card2{*/
+/*flex-direction: row;*/
+/*}*/
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

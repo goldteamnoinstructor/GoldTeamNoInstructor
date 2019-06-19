@@ -1,0 +1,464 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>GoldTeam</title>
+    <link rel="stylesheet" type="text/css" href="main.css">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous"></head>
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.2/css/all.css" integrity="sha384-oS3vJWv+0UjzBfQzYUhtDYW+Pj2yciDJxpsK1OYPAYjqT085Qq/1cq5FLXAZQ7Ay" crossorigin="anonymous">
+</head>
+<body>
+<header>
+
+    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+        <a class="navbar-brand" href="#"> <i class="fas fa-laptop-medical fa-3x"></i></a>
+        <h2>GoldTeam</h2>
+        <form class="form-inline my-2 my-lg-0 ml-auto mr-auto container-fluid">
+            <input class="form-control  w-50 ml-auto" type="search" placeholder="Search" aria-label="Search">
+            <button class="btn btn-outline-success float-left mr-auto" type="submit">Search</button>
+        </form>
+        <ul class="navbar-nav float-right col-2">
+            <li class="'navbar-item ml-auto">
+                <a class="navbar-link" href="#">Sign Up</a>
+            </li>
+            <li>&nbsp/&nbsp</li>
+            <li class="navbar-item mr-auto">
+                <a class="navbar-link" href="#">Sign In</a>
+            </li>
+
+        </ul>
+    </nav>
+
+</header>
+
+   <section class="filters border border-right col-2 mh-100" id="input-info">
+       <h4>Basic Information</h4>
+       <form>
+           <div class="form-group w-25 float-left">
+               <label for="formGroupExampleInput">Age</label>
+               <input type="text" class="form-control" id="formGroupExampleInput">
+           </div>
+           <div class="form-group w-25 float-left mx-2" >
+               <label for="formGroupExampleInput2">Weight</label>
+               <input type="text" class="form-control" id="formGroupExampleInput2">
+           </div>
+           <div class="form-group w-25 float-left">
+               <label for="formGroupExampleInput2">Height</label>
+               <input type="text" class="form-control" id="formGroupExampleInput3">
+           </div>
+           <div class="form-group w-50 float-left">
+               <label for="formGroupExampleInput2">Ethnicity</label>
+               <input type="text" class="form-control" id="formGroupExampleInput4">
+           </div>
+           <div class="form-group w-50">
+               <label for="exampleFormControlSelect1">Sex</label>
+               <select class="form-control" id="exampleFormControlSelect1">
+                   <option>Male</option>
+                   <option>Female</option>
+                   <option>Other</option>
+
+               </select>
+           </div>
+       </form>
+       <hr>
+       <h4>Medical History</h4>
+       <form>
+           <div class="form-check">
+               <input class="form-check-input" type="checkbox" value="" id="defaultCheck1">
+               <label class="form-check-label" for="defaultCheck1">
+                   Heart Disease
+               </label>
+           </div>
+           <div class="form-check">
+               <input class="form-check-input" type="checkbox" value="" id="defaultCheck2">
+               <label class="form-check-label" for="defaultCheck2">
+                   Cancer
+               </label>
+           </div>
+           <div class="form-check">
+               <input class="form-check-input" type="checkbox" value="" id="defaultCheck3">
+               <label class="form-check-label" for="defaultCheck2">
+                   LOREM
+               </label>
+           </div>
+           <div class="form-check">
+               <input class="form-check-input" type="checkbox" value="" id="defaultCheck4">
+               <label class="form-check-label" for="defaultCheck2">
+                   IPSUM
+               </label>
+           </div>
+       </form>
+       <hr>
+       <h4>Risk Factors</h4>
+       <form>
+           <div class="form-check">
+               <input class="form-check-input" type="checkbox" value="" id="defaultCheck5">
+               <label class="form-check-label" for="defaultCheck1">
+                   Drugs
+               </label>
+           </div>
+           <div class="form-check">
+               <input class="form-check-input" type="checkbox" value="" id="defaultCheck6">
+               <label class="form-check-label" for="defaultCheck2">
+                   Sex
+               </label>
+           </div>
+           <div class="form-check">
+               <input class="form-check-input" type="checkbox" value="" id="defaultCheck7">
+               <label class="form-check-label" for="defaultCheck2">
+                   Smoking
+               </label>
+           </div>
+           <div class="form-check">
+               <input class="form-check-input" type="checkbox" value="" id="defaultCheck8">
+               <label class="form-check-label" for="defaultCheck2">
+                   LOREM
+               </label>
+           </div>
+       </form>
+       <hr>
+       <h4>Family History</h4>
+       <form>
+           <div class="form-check">
+               <input class="form-check-input" type="checkbox" value="" id="defaultCheck9">
+               <label class="form-check-label" for="defaultCheck1">
+                   Heart Disease
+               </label>
+           </div>
+           <div class="form-check">
+               <input class="form-check-input" type="checkbox" value="" id="defaultCheck10">
+               <label class="form-check-label" for="defaultCheck2">
+                   Cancer
+               </label>
+           </div>
+           <div class="form-check">
+               <input class="form-check-input" type="checkbox" value="" id="defaultCheck11">
+               <label class="form-check-label" for="defaultCheck2">
+                   Asthma
+               </label>
+           </div>
+           <div class="form-check">
+               <input class="form-check-input" type="checkbox" value="" id="defaultCheck12">
+               <label class="form-check-label" for="defaultCheck2">
+                   LOREM
+               </label>
+           </div>
+       </form>
+
+   </section>
+
+
+<!--<a class="weatherwidget-io" href="https://forecast7.com/en/36d75n119d77/fresno/" data-label_1="FRESNO" data-label_2="WEATHER" data-theme="original" >FRESNO WEATHER</a>-->
+
+<!------------------------------------------------- CARD BOX 1 Meth --------------------------------------------------->
+
+
+<section class="cardBox col-10 ml-auto">
+    <div class="drugs" id="card1">                                                  <!-- Everything -->
+        <!--<h1 class="cardTitle">Struggling with Addiction?</h1>-->
+        <!--<div class="cardContainer">-->
+        <div class="picContainer">
+            <img class="pic" src="drugs.jpeg">
+        </div>
+        <div class="titleAndText">      <!-- Title and text -->
+           <div>
+               <h1 class="title">Struggling with Addiction?</h1>
+           </div>
+            <div class="rightHalf">
+                <div class="blurb">
+                    <h4>Lorem Ipsum</h4>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Deserunt distinctio eligendi harum hic labore, nostrum!
+                        Animi consequuntur dignissimos distinctio dolorem doloremque esse fuga, harum illo incidunt ipsam minus nemo neque nobis,
+                        optio perferendis placeat quas repellat sapiente similique sint tempore totam, velit voluptatum? Atque corporis delectus deleniti,
+                        eligendi eos eum eveniet illo.
+                    </p>
+                </div>
+                <div class="links">
+                    <h5>Resources</h5>
+                    <ul>
+                        <li>
+                            <a href="https://www.co.fresno.ca.us/departments/behavioral-health/substance-use-disorder-services">Fresno Substance Use Disorder Services</a>
+                        </li>
+                        <li>
+                            <a href="">Fresno Substance Use Disorder Services</a>
+                        </li>
+                        <li>
+                            <a href="">Lorem ipsum dolor sit amet, consectetur adipisicing elit.</a>
+                        </li>
+                        <li>
+                            <a href="">Lorem ipsum dolor sit amet, consectetur adipisicing.</a>
+                        </li>
+                        <li>
+                            <a href="">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Architecto.</a>
+                        </li>
+                        <li>
+                            <a href="">Lorem ipsum dolor sit amet.</a>
+                        </li>
+                    </ul>
+                </div>
+             </div>
+        </div>
+    </div>
+</section>
+
+<!------------------------------------------------------ CARD BOX 2 Asthma -------------------------------------------->
+
+<section class="cardBox col-10 ml-auto">
+    <div class="condition" id="card2">                                                  <!-- Everything -->
+        <!--<h1 class="cardTitle">Struggling with Addiction?</h1>-->
+        <!--<div class="cardContainer">-->
+        <div class="picContainer">
+            <img class="pic" src="asthma.jpg">
+        </div>
+        <div class="titleAndText">      <!-- Title and text -->
+            <div>
+                <h1 class="title">Living with Asthma</h1>
+            </div>
+            <div class="rightHalf">
+                <div class="blurb">
+                    <h4>Lorem Ipsum</h4>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Deserunt distinctio eligendi harum hic labore, nostrum!
+                        Animi consequuntur dignissimos distinctio dolorem doloremque esse fuga, harum illo incidunt ipsam minus nemo neque nobis,
+                        optio perferendis placeat quas repellat sapiente similique sint tempore totam, velit voluptatum? Atque corporis delectus deleniti,
+                        eligendi eos eum eveniet illo.
+                    </p>
+                </div>
+                <div class="links">
+                    <h5>Resources</h5>
+                    <ul>
+                        <li>
+                            <a href="https://www.co.fresno.ca.us/departments/behavioral-health/substance-use-disorder-services">Fresno Substance Use Disorder Services</a>
+                        </li>
+                        <li>
+                            <a href="">Fresno Substance Use Disorder Services</a>
+                        </li>
+                        <li>
+                            <a href="">Lorem ipsum dolor sit amet, consectetur adipisicing elit.</a>
+                        </li>
+                        <li>
+                            <a href="">Lorem ipsum dolor sit amet, consectetur adipisicing.</a>
+                        </li>
+                        <li>
+                            <a href="">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Architecto.</a>
+                        </li>
+                        <li>
+                            <a href="">Lorem ipsum dolor sit amet.</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+<!------------------------------------------------------ CARD BOX 3 Heart Disease ------------------------------------->
+
+<section class="cardBox col-10 ml-auto">
+    <div class="heart" id="card3">                                                  <!-- Everything -->
+        <!--<h1 class="cardTitle">Struggling with Addiction?</h1>-->
+        <!--<div class="cardContainer">-->
+        <div class="picContainer">
+            <img class="pic" src="heartDisease.png">
+        </div>
+        <div class="titleAndText">      <!-- Title and text -->
+            <div>
+                <h1 class="title">Heart Disease is Preventable</h1>
+            </div>
+            <div class="rightHalf">
+                <div class="blurb">
+                    <h4>Lorem Ipsum</h4>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Deserunt distinctio eligendi harum hic labore, nostrum!
+                        Animi consequuntur dignissimos distinctio dolorem doloremque esse fuga, harum illo incidunt ipsam minus nemo neque nobis,
+                        optio perferendis placeat quas repellat sapiente similique sint tempore totam, velit voluptatum? Atque corporis delectus deleniti,
+                        eligendi eos eum eveniet illo.
+                    </p>
+                </div>
+                <div class="links">
+                    <h5>Resources</h5>
+                    <ul>
+                        <li>
+                            <a href="https://www.co.fresno.ca.us/departments/behavioral-health/substance-use-disorder-services">Fresno Substance Use Disorder Services</a>
+                        </li>
+                        <li>
+                            <a href="">Fresno Substance Use Disorder Services</a>
+                        </li>
+                        <li>
+                            <a href="">Lorem ipsum dolor sit amet, consectetur adipisicing elit.</a>
+                        </li>
+                        <li>
+                            <a href="">Lorem ipsum dolor sit amet, consectetur adipisicing.</a>
+                        </li>
+                        <li>
+                            <a href="">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Architecto.</a>
+                        </li>
+                        <li>
+                            <a href="">Lorem ipsum dolor sit amet.</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+<!------------------------------------------------------ CARD BOX 4 AIDS ---------------------------------------------->
+
+<section class="cardBox col-10 ml-auto">
+    <div class="std" id="card4">                                                  <!-- Everything -->
+        <!--<h1 class="cardTitle">Struggling with Addiction?</h1>-->
+        <!--<div class="cardContainer">-->
+        <div class="picContainer">
+            <img class="pic" src="condom.jpg">
+        </div>
+        <div class="titleAndText">      <!-- Title and text -->
+            <div>
+                <h1 class="title">Living with HIV or AIDS</h1>
+            </div>
+            <div class="rightHalf">
+                <div class="blurb">
+                    <h4>Lorem Ipsum</h4>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Deserunt distinctio eligendi harum hic labore, nostrum!
+                        Animi consequuntur dignissimos distinctio dolorem doloremque esse fuga, harum illo incidunt ipsam minus nemo neque nobis,
+                        optio perferendis placeat quas repellat sapiente similique sint tempore totam, velit voluptatum? Atque corporis delectus deleniti,
+                        eligendi eos eum eveniet illo.
+                    </p>
+                </div>
+                <div class="links">
+                    <h5>Resources</h5>
+                    <ul>
+                        <li>
+                            <a href="https://www.co.fresno.ca.us/departments/behavioral-health/substance-use-disorder-services">Fresno Substance Use Disorder Services</a>
+                        </li>
+                        <li>
+                            <a href="">Fresno Substance Use Disorder Services</a>
+                        </li>
+                        <li>
+                            <a href="">Lorem ipsum dolor sit amet, consectetur adipisicing elit.</a>
+                        </li>
+                        <li>
+                            <a href="">Lorem ipsum dolor sit amet, consectetur adipisicing.</a>
+                        </li>
+                        <li>
+                            <a href="">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Architecto.</a>
+                        </li>
+                        <li>
+                            <a href="">Lorem ipsum dolor sit amet.</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+<!------------------------------------------------------ CARD BOX 5 Disability ---------------------------------------->
+
+<section class="cardBox col-10 ml-auto">
+    <div class="disability" id="card5">                                                  <!-- Everything -->
+        <!--<h1 class="cardTitle">Struggling with Addiction?</h1>-->
+        <!--<div class="cardContainer">-->
+        <div class="picContainer">
+            <img class="pic" src="disabled.jpg">
+        </div>
+        <div class="titleAndText">      <!-- Title and text -->
+            <div>
+                <h1 class="title">Do you Qualify for Disability Benefits?</h1>
+            </div>
+            <div class="rightHalf">
+                <div class="blurb">
+                    <h4>Lorem Ipsum</h4>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Deserunt distinctio eligendi harum hic labore, nostrum!
+                        Animi consequuntur dignissimos distinctio dolorem doloremque esse fuga, harum illo incidunt ipsam minus nemo neque nobis,
+                        optio perferendis placeat quas repellat sapiente similique sint tempore totam, velit voluptatum? Atque corporis delectus deleniti,
+                        eligendi eos eum eveniet illo.
+                    </p>
+                </div>
+                <div class="links">
+                    <h5>Resources</h5>
+                    <ul>
+                        <li>
+                            <a href="https://www.co.fresno.ca.us/departments/behavioral-health/substance-use-disorder-services">Fresno Substance Use Disorder Services</a>
+                        </li>
+                        <li>
+                            <a href="">Fresno Substance Use Disorder Services</a>
+                        </li>
+                        <li>
+                            <a href="">Lorem ipsum dolor sit amet, consectetur adipisicing elit.</a>
+                        </li>
+                        <li>
+                            <a href="">Lorem ipsum dolor sit amet, consectetur adipisicing.</a>
+                        </li>
+                        <li>
+                            <a href="">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Architecto.</a>
+                        </li>
+                        <li>
+                            <a href="">Lorem ipsum dolor sit amet.</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+
+
+
+</body>
+
+<!--<script>-->
+    <!--!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0];if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src='https://weatherwidget.io/js/widget.min.js';fjs.parentNode.insertBefore(js,fjs);}}(document,'script','weatherwidget-io-js');-->
+<!--</script>-->
+
+<!--<script src="https://cdnres.willyweather.com/widget/warning/loadView.html?id=110740" type="application/javascript"></script>-->
+
+</html>
+
+
+
+
+
+
+
+<!--                                                                     CODE GRAVEYARD
+    <!--<section class="cardBox col-10 ml-auto">-->
+<!--<div class="drugCard" id="card1">-->
+<!--<h1 class="cardTitle">Struggling with Addiction?</h1>-->
+<!--<div class="cardContainer">-->
+<!--<div class="cardPic">-->
+<!--<img class="pic" src="drugs.jpeg">-->
+<!--</div>-->
+<!--<div class="cardBlurb">-->
+<!--<h4>Lorem Ipsum</h4>-->
+<!--<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Deserunt distinctio eligendi harum hic labore, nostrum!-->
+<!--Animi consequuntur dignissimos distinctio dolorem doloremque esse fuga, harum illo incidunt ipsam minus nemo neque nobis,-->
+<!--optio perferendis placeat quas repellat sapiente similique sint tempore totam, velit voluptatum? Atque corporis delectus deleniti,-->
+<!--eligendi eos eum eveniet illo.</p>-->
+<!--</div>-->
+<!--<div class="cardLinks">-->
+<!--<h5>Resources</h5>-->
+<!--<ul>-->
+<!--<li>-->
+<!--<a href="https://www.co.fresno.ca.us/departments/behavioral-health/substance-use-disorder-services">Fresno Substance Use Disorder Services</a>-->
+<!--</li>-->
+<!--<li>-->
+<!--<a href="">Fresno Substance Use Disorder Services</a>-->
+<!--</li>-->
+<!--<li>-->
+<!--<a href="">Lorem ipsum dolor sit amet, consectetur adipisicing elit.</a>-->
+<!--</li>-->
+<!--<li>-->
+<!--<a href="">Lorem ipsum dolor sit amet, consectetur adipisicing.</a>-->
+<!--</li>-->
+<!--<li>-->
+<!--<a href="">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Architecto.</a>-->
+<!--</li>-->
+<!--<li>-->
+<!--<a href="">Lorem ipsum dolor sit amet.</a>-->
+<!--</li>-->
+<!--</ul>-->
+<!--</div>-->
+<!--</div>-->
+<!--</div>-->
+<!--</section>-->
+
