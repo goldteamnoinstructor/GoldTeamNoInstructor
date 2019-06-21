@@ -20,7 +20,7 @@ body{
     padding:5px;  
 }
 .linkdecor{
-    list-style-type: none; 
+    text-decoration: none; 
 }
 .btnsize{
     min-width:100px;
