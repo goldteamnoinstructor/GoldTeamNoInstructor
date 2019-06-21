@@ -1,4 +1,4 @@
-console.log("working");
+//console.log("working");
 
 
 const heartBox = document.querySelector('#heartDisease');
@@ -55,3 +55,5 @@ disabilityBox.addEventListener('change', function (){
         disability.style.display = "none";
     }
 });
+
+
