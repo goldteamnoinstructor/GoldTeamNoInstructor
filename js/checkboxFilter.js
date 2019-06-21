@@ -1,3 +1,6 @@
+console.log("working");
+
+
 const heartBox = document.querySelector('#heartDisease');
 heart = document.querySelector('#heart');
 
