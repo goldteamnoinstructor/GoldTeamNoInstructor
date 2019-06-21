@@ -28,7 +28,6 @@ body{
 /* ------------------home page */
 .inputback{
     background-image: url(../images/white_carbon2.png);
-    background-size:cover; 
 }
 .filter_spac{
     border-radius:3px;
