@@ -88,6 +88,26 @@
     flex:1;
 }
 
+#heart {
+    display: none;
+}
+
+#drugs {
+    display: none;
+}
+
+#asthma {
+    display: none;
+}
+
+#disability {
+    display: none;
+}
+
+#aids {
+    display: none;
+}
+
 @media(max-width:992px){
     
     .drugs {
