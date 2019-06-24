@@ -54,6 +54,46 @@
     margin-bottom: 10px;
 }
 
+.obese {
+    display: flex;
+    flex-direction: row;
+    background-image: linear-gradient(to right, #fbff1e, #f5f1a1);
+    border-style: solid;
+    border-width: 1px;
+    border-radius: 10px;
+    margin-bottom: 10px;
+}
+
+.overweight {
+    display: flex;
+    flex-direction: row;
+    background-image: linear-gradient(to right, #ff8339, #f5ce8c);
+    border-style: solid;
+    border-width: 1px;
+    border-radius: 10px;
+    margin-bottom: 10px;
+}
+
+.healthy {
+    display: flex;
+    flex-direction: row;
+    background-image: linear-gradient(to right, #2cff28, #a5f578);
+    border-style: solid;
+    border-width: 1px;
+    border-radius: 10px;
+    margin-bottom: 10px;
+}
+
+.underweight {
+    display: flex;
+    flex-direction: row;
+    background-image: linear-gradient(to right, #ae64ff, #a3a2f5);
+    border-style: solid;
+    border-width: 1px;
+    border-radius: 10px;
+    margin-bottom: 10px;
+}
+
 .pic {
     height: 348px;
     width: auto;
@@ -108,6 +148,22 @@
     display: none;
 }
 
+#obese {
+    display: none;
+}
+
+#overweight {
+    display: none;
+}
+
+#healthy {
+    display: none;
+}
+
+#underweight {
+    display: none;
+}
+
 @media(max-width:992px){
     
     .drugs {
@@ -159,6 +215,47 @@
         border-radius: 10px;
         margin-bottom: 10px;
     }
+
+    .obese {
+        display: flex;
+        flex-direction: column;
+        background-image: linear-gradient(to right, #fbff1e, #f5f1a1);
+        border-style: solid;
+        border-width: 1px;
+        border-radius: 10px;
+        margin-bottom: 10px;
+    }
+
+    .overweight {
+        display: flex;
+        flex-direction: column;
+        background-image: linear-gradient(to right, #ff8339, #f5ce8c);
+        border-style: solid;
+        border-width: 1px;
+        border-radius: 10px;
+        margin-bottom: 10px;
+    }
+
+    .healthy {
+        display: flex;
+        flex-direction: column;
+        background-image: linear-gradient(to right, #2cff28, #a5f578);
+        border-style: solid;
+        border-width: 1px;
+        border-radius: 10px;
+        margin-bottom: 10px;
+    }
+
+    .underweight {
+        display: flex;
+        flex-direction: column;
+        background-image: linear-gradient(to right, #ae64ff, #a3a2f5);
+        border-style: solid;
+        border-width: 1px;
+        border-radius: 10px;
+        margin-bottom: 10px;
+    }
+
     
     .titleAndText {
         display: flex;

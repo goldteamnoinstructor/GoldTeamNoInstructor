@@ -45,7 +45,7 @@ sexBox.addEventListener('change', function (){
         sex.style.display = "none";
     }
 });
-
+;;
 const disabilityBox = document.querySelector('#disabilityCheck');
 disability = document.querySelector('#disability');
 disabilityBox.addEventListener('change', function (){
@@ -56,4 +56,34 @@ disabilityBox.addEventListener('change', function (){
     }
 });
 
+
+
+
+function calcBMI () {
+    var height = document.getElementById("height").value;
+    var weight = document.getElementById("weight").value;
+    var BMI = (703 * weight) / (height * height);
+    console.log(BMI);
+
+
+    var obese = document.querySelector('#obese');
+    if(BMI > 30) {
+        obese.style.display = "initial";
+    } else obese.style.display = "none";
+
+    var overweight = document.querySelector('#overweight');
+    if(BMI >= 25 && BMI < 30) {
+        overweight.style.display = "initial";
+    } else overweight.style.display = "none";
+
+    var healthy = document.querySelector('#healthy');
+    if(BMI >= 18.5 && BMI < 25) {
+        healthy.style.display = "initial";
+    } else healthy.style.display = "none";
+
+    if(BMI < 18.5 && BMI > 0) {
+        underweight.style.display = "initial";
+    } else underweight.style.display = "none";
+
+}
 
