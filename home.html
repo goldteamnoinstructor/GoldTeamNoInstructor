@@ -6,9 +6,9 @@
     <link rel="stylesheet" type="text/css" href="main.css">
     <link rel="stylesheet" href="css/bootstrap.min.css">
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.2/css/all.css" integrity="sha384-oS3vJWv+0UjzBfQzYUhtDYW+Pj2yciDJxpsK1OYPAYjqT085Qq/1cq5FLXAZQ7Ay" crossorigin="anonymous">
+    
     <link rel="stylesheet" href="css/styles.css">
     <link rel="stylesheet" href="css/main.css">
-
 </head>
 
 <body>
@@ -17,23 +17,30 @@
         <!-- <a class="navbar-brand" href="#"> <i class="fas fa-laptop-medical fa-3x"></i></a> -->
         <h2 class="col-md-1">GoldTeam</h2>
         <form class="col-md-3 col-md-offset-5 inputbox">
-            <input  type="search" placeholder="Search" aria-label="Search">
+            <input id="search" type="search" placeholder="Search" aria-label="Search">
             <button class="btn btn-outline-success" type="submit">Search</button>
         </form>
         <ul class="navbar-nav col-md-3 inputbox">
-            <li class="'navbar-item col-md-6 linkdecor">
-                <a class="navbar-link " href="/sign-up.html"><strong>Sign Up</strong></a>
+            <li class="'navbar-item col-md-6 logout noshow">
+                <a class="navbar-link " href="/sign-up.html" ><strong>Sign Up</strong></a>               
             </li>
-            <li class="navbar-item col-md-6 linkdecor">
-                <a class="navbar-link " href="index.html"><strong>Sign In</strong></a>
+            <li class="navbar-item col-md-6 logout noshow">
+                <a class="navbar-link " href="login.html"><strong>Sign In</strong></a>
+            </li>             
+            <li class="navbar-item col-md-6 login noshow">
+                <a class="navbar-link " href="/sign-up.html" ><strong>Account</strong></a>    
             </li>
+ 
+            <li class="navbar-item col-md-6 login noshow">
+                <a class="navbar-link " href="#" id="exit"><strong>Log Out</strong></a>
+            </li>     
         </ul>
     </nav>
 </header>
 
     <div class="container-fluid marginall">
-        <div class="row mobile">
-            <div class="filters border flexfilter inputback inputbox filter_spac">
+        <div class="row">
+            <div class="filters border col-md-2 col-sm-2 inputback inputbox filter_spac">
                 <div class="margtest">
                     <h4>Basic Information</h4>
                     <form class="container-fluid">
@@ -69,8 +76,8 @@
                     <h4>Medical History</h4>
                     <form>
                         <div class="form-check">
-                            <input class="form-check-input" type="checkbox" value="" id="heartDisease">
-                            <label class="form-check-label" for="heartDisease">
+                            <input class="form-check-input" type="checkbox" value="" id="defaultCheck1">
+                            <label class="form-check-label" for="defaultCheck1">
                                 Heart Disease
                             </label>
                         </div>
@@ -81,9 +88,9 @@
                             </label>
                         </div>
                         <div class="form-check">
-                            <input class="form-check-input" type="checkbox" value="" id="disabilityCheck">
-                            <label class="form-check-label" for="disabilityCheck">
-                                Chronic Pain
+                            <input class="form-check-input" type="checkbox" value="" id="defaultCheck3">
+                            <label class="form-check-label" for="defaultCheck2">
+                                LOREM
                             </label>
                         </div>
                         <div class="form-check">
@@ -97,14 +104,14 @@
                     <h4>Risk Factors</h4>
                     <form>
                         <div class="form-check">
-                            <input class="form-check-input" type="checkbox" value="" id="drugsCheck">
-                            <label class="form-check-label" for="drugsCheck">
+                            <input class="form-check-input" type="checkbox" value="" id="defaultCheck5">
+                            <label class="form-check-label" for="defaultCheck1">
                                 Drugs
                             </label>
                         </div>
                         <div class="form-check">
-                            <input class="form-check-input" type="checkbox" value="" id="sexCheck">
-                            <label class="form-check-label" for="sexCheck">
+                            <input class="form-check-input" type="checkbox" value="" id="defaultCheck6">
+                            <label class="form-check-label" for="defaultCheck2">
                                 Sex
                             </label>
                         </div>
@@ -126,7 +133,7 @@
                     <form>
                         <div class="form-check">
                             <input class="form-check-input" type="checkbox" value="" id="defaultCheck9">
-                            <label class="form-check-label" for="defaultCheck9">
+                            <label class="form-check-label" for="defaultCheck1">
                                 Heart Disease
                             </label>
                         </div>
@@ -137,8 +144,8 @@
                             </label>
                         </div>
                         <div class="form-check">
-                            <input class="form-check-input" type="checkbox" value="" id="asthmaCheck">
-                            <label class="form-check-label" for="asthmaCheck">
+                            <input class="form-check-input" type="checkbox" value="" id="defaultCheck11">
+                            <label class="form-check-label" for="defaultCheck2">
                                 Asthma
                             </label>
                         </div>
@@ -152,13 +159,13 @@
                 </div>
             </div>
             <!-- ------------------------------------------>
-            <div class="cardBox flextest">
-                <section id="drugs">
+            <div class="cardBox col-md-10 col-sm-10">
+                <section>
                     <div class="drugs" id="card1">                                                  <!-- Everything -->
                         <!--<h1 class="cardTitle">Struggling with Addiction?</h1>-->
                         <!--<div class="cardContainer">-->
-                        <div class="picContainer col-md">
-                            <!-- <img class="pic" src="/images/drugs.jpeg"> -->
+                        <div class="picContainer">
+                            <img class="pic" src="/images/drugs.jpeg">
                         </div>
                         <div class="titleAndText">      <!-- Title and text -->
                            <div>
@@ -203,12 +210,12 @@
                 
                 <!------------------------------------------------------ CARD BOX 2 Asthma -------------------------------------------->
                 
-                <section id="asthma">
+                <section class="cardBox col-10 ml-auto">
                     <div class="condition" id="card2">                                                  <!-- Everything -->
                         <!--<h1 class="cardTitle">Struggling with Addiction?</h1>-->
                         <!--<div class="cardContainer">-->
                         <div class="picContainer">
-                            <!-- <img class="pic" src="/images/asthma.jpg"> -->
+                            <img class="pic" src="/images/asthma.jpg">
                         </div>
                         <div class="titleAndText">      <!-- Title and text -->
                             <div>
@@ -253,12 +260,12 @@
                 
                 <!------------------------------------------------------ CARD BOX 3 Heart Disease ------------------------------------->
                 
-                <section id="heart">
+                <section class="cardBox col-10 ml-auto">
                     <div class="heart" id="card3">                                                  <!-- Everything -->
                         <!--<h1 class="cardTitle">Struggling with Addiction?</h1>-->
                         <!--<div class="cardContainer">-->
                         <div class="picContainer">
-                            <!-- <img class="pic" src="images/heartDisease.png"> -->
+                            <img class="pic" src="images/heartDisease.png">
                         </div>
                         <div class="titleAndText">      <!-- Title and text -->
                             <div>
@@ -303,12 +310,12 @@
                 
                 <!------------------------------------------------------ CARD BOX 4 AIDS ---------------------------------------------->
                 
-                <section id="aids">
+                <section class="cardBox col-10 ml-auto">
                     <div class="std" id="card4">                                                  <!-- Everything -->
                         <!--<h1 class="cardTitle">Struggling with Addiction?</h1>-->
                         <!--<div class="cardContainer">-->
                         <div class="picContainer">
-                            <!-- <img class="pic" src="images/condom.jpg"> -->
+                            <img class="pic" src="images/condom.jpg">
                         </div>
                         <div class="titleAndText">      <!-- Title and text -->
                             <div>
@@ -353,12 +360,12 @@
                 
                 <!------------------------------------------------------ CARD BOX 5 Disability ---------------------------------------->
                 
-                <section id="disability">
+                <section class="cardBox col-10 ml-auto">
                     <div class="disability" id="card5">                                                  <!-- Everything -->
                         <!--<h1 class="cardTitle">Struggling with Addiction?</h1>-->
                         <!--<div class="cardContainer">-->
                         <div class="picContainer">
-                            <!-- <img class="pic" src="images/disabled.jpg"> -->
+                            <img class="pic" src="images/disabled.jpg">
                         </div>
                         <div class="titleAndText">      <!-- Title and text -->
                             <div>
@@ -406,8 +413,35 @@
 
 
 
-<script type="text/javascript" src="js/checkboxFilter.js"></script>
+
+<!-- The core Firebase JS SDK is always required and must be listed first -->
+<script src="https://www.gstatic.com/firebasejs/6.2.2/firebase-app.js"></script>
+<script src="https://www.gstatic.com/firebasejs/6.2.2/firebase-auth.js"></script>
+<script src="https://www.gstatic.com/firebasejs/6.2.2/firebase-firestore.js"></script>
+
+<!-- TODO: Add SDKs for Firebase products that you want to use
+     https://firebase.google.com/docs/web/setup#config-web-app -->
+
+<script>
+  // Your web app's Firebase configuration
+  var firebaseConfig = {
+    apiKey: "AIzaSyDTQNYx9PQQ6b_AP7L4nTWhFxnuP3ZfZNc",
+    authDomain: "healthy-7e08a.firebaseapp.com",
+    databaseURL: "https://healthy-7e08a.firebaseio.com",
+    projectId: "healthy-7e08a"
+  };
+  // Initialize Firebase
+  firebase.initializeApp(firebaseConfig);
+  const auth =firebase.auth();
+  const db = firebase.firestore();
 
 
+</script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
+    <script src="js/scripts.js"></script>
+    <script src="js/logout.js"></script>
+    <script src="js/search.js"></script>
+    <script src="js/resources.js"></script>
+    <script src="js/bootstrap.min.js"></script>
 </body>
 </html>

@@ -17,17 +17,16 @@ body{
     margin: 0 auto;
 }
 .inputbox{
-    padding:5px;  
-}
-.linkdecor{
-    list-style-type: none; 
+    padding:5px;
+    
 }
 .btnsize{
     min-width:100px;
 }
 /* ------------------home page */
 .inputback{
-    background-image: url(../images/white_carbon2.png);
+    background-image: url(../images/bricks-brickwall-brickwork-1092364.jpg);
+    background-size:cover; 
 }
 .filter_spac{
     border-radius:3px;
@@ -39,34 +38,60 @@ body{
 }
 .marginall{
     margin:10px 0px 10px 10px;
-} 
-@media(min-width:769px){
-    .flexfilter{
-        display:flex;
-        width:200px;
-        margin-right:10px;
-    }
-    .flextest{
-        display:flex;
-        flex-direction:column;
-        margin-right:10px;
-    }
+}
+.navbar {
+    margin-bottom: 0;
 }
 
+.back-image{
+    height: 50vw;
+    background-image: url('../img/back.jpg');
+    /* background-color: #276873; */
+}
 
-@media(max-width:768px){
-    .mobile{
-        display:flex;
-        flex-direction:column;
+#nav-p{
+    display: flex; 
+    justify-content: center;
+    flex-direction:column;
+}
+.but-div{
+    display: flex; 
+    justify-content: center;
+}
+#landing-text{
+    align-self: center;
+}
+
+.f-center{
+    margin-right: 50px;
+	box-shadow: 0px 10px 14px -7px #276873;
+	background-color:#599bb3;
+	border-radius:8px;
+	display:inline-block;
+	cursor:pointer;
+	color:#ffffff;
+	font-family:Arial;
+	font-size:20px;
+	font-weight:bold;
+	padding:13px 32px;
+	text-decoration:none;
+	text-shadow:0px 1px 0px #3d768a;
+} 
+
+.re-context{
+    height: 100%;
+    width: 100%
+}
+
+img {
+    opacity: 0.75;
+  }
+
+@media(max-width:992px){
+    .col-sm-12{
+        margin: 10px;
     }
-    .flexfilter{
-        display:flex;
-        margin-right:10px;
-    }
-    .flextest{
-        display:flex;
-        flex-direction:column;
-        margin:10px 10px 0px 0px;
-    
-    }
+    .back-image{
+        height: 130vw;    
+    }    
 }

@@ -64,7 +64,6 @@
 .titleAndText {
     display: flex;
     flex-direction: column;
-    flex:2;
 }
 
 .rightHalf {
@@ -84,105 +83,19 @@
 .title {
     text-align: center;
 }
-.picContainer{
-    flex:1;
+
+@media only screen and (max-width: 600px) {
+    .cardBox, .rightHalf, .drugs, .condition, .heart, .std, .disability {
+        flex-direction: column;
+    }
+    .picContainer {
+        flex-shrink: 1;
+    }
 }
 
-#heart {
+.noshow{
     display: none;
 }
-
-#drugs {
-    display: none;
-}
-
-#asthma {
-    display: none;
-}
-
-#disability {
-    display: none;
-}
-
-#aids {
-    display: none;
-}
-
-@media(max-width:992px){
-    
-    .drugs {
-        display: flex;
-        flex-direction: column;
-        background-image: linear-gradient(to right, aliceblue, whitesmoke);
-        border-style: solid;
-        border-width: 1px;
-        border-radius: 10px;
-        margin-bottom: 10px;
-    }
-    
-    .condition {
-        display: flex;
-        flex-direction: column;
-        background-image: linear-gradient(to right, #feffb3, #f5f5da);
-        border-style: solid;
-        border-width: 1px;
-        border-radius: 10px;
-        margin-bottom: 10px;
-    }
-    
-    .heart {
-        display: flex;
-        flex-direction: column;
-        background-image: linear-gradient(to right, #ffb8b3, #f58a89);
-        border-style: solid;
-        border-width: 1px;
-        border-radius: 10px;
-        margin-bottom: 10px;
-    }
-    
-    .std {
-        display: flex;
-        flex-direction: column;
-        background-image: linear-gradient(to right, #c7ffb9, #a3f5ed);
-        border-style: solid;
-        border-width: 1px;
-        border-radius: 10px;
-        margin-bottom: 10px;
-    }
-    
-    .disability {
-        display: flex;
-        flex-direction: column;
-        background-image: linear-gradient(to right, #2a36ff, #f5f5f5);
-        border-style: solid;
-        border-width: 1px;
-        border-radius: 10px;
-        margin-bottom: 10px;
-    }
-    
-    .titleAndText {
-        display: flex;
-        flex-direction: column;
-        flex:2;
-        margin:15px;
-    }
-    .picContainer{
-        background-image:url(/images/drugs.jpeg);
-        background-size:cover;
-        flex:1;
-        width:auto;
-        justify-content:space-around;
-    }
-    .pic {
-        max-height: 350px;
-        width: auto;
-        border-radius: 10px;
-        margin-right: 20px;
-       
-
-    }
-}
-
 /******************************** CODE GRAVEYARD ******************************************************/
 
 

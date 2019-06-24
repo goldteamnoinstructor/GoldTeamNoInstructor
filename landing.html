@@ -48,7 +48,7 @@
 <div class="container-fluid back-image">
     <div class="col-md-6 col-sm-12">
         <div id="nav-p">
-            <h1 id="search">Helpfully Healthy</h1>
+            <h1 id="landin-text">Helpfully Healthy</h1>
             <p >Meeting the Needs of the Fresno Area. Fresno is plagued various ailments from addiciction to respiotory and cardiovascular diseases.In order to provide residents with the best care possible this website has been designed to provide users with resources and tips to help them tackle the most prevelent chronic ailments in the area. </p>
         </div>
         <div class="but-div">
@@ -62,7 +62,26 @@
     </div>
 </div>
 
+    <!-- The core Firebase JS SDK is always required and must be listed first -->
+    <script src="https://www.gstatic.com/firebasejs/6.2.0/firebase-app.js"></script>
 
+    <!-- TODO: Add SDKs for Firebase products that you want to use
+        https://firebase.google.com/docs/web/setup#config-web-app -->
+
+    <script>
+        // Your web app's Firebase configuration
+        var firebaseConfig = {
+            apiKey: "AIzaSyDTQNYx9PQQ6b_AP7L4nTWhFxnuP3ZfZNc",
+            authDomain: "healthy-7e08a.firebaseapp.com",
+            databaseURL: "https://healthy-7e08a.firebaseio.com",
+            projectId: "healthy-7e08a",
+            storageBucket: "",
+            messagingSenderId: "49336197131",
+            appId: "1:49336197131:web:3d3951b91e851368"
+        };
+        // Initialize Firebase
+        firebase.initializeApp(firebaseConfig);
+    </script>
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
     <script src="js/bootstrap.min.js"></script>
 </body>
