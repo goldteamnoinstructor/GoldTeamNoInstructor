@@ -2,6 +2,14 @@ body{
     background-image: url(../images/backgrounds-blank-blue-953214.jpg);
     background-size: cover;
 }
+
+.navdim{
+    max-height:120px;
+    display:inline-block;
+}
+#width{
+    min-width:200px; 
+}
 #signbox{
     padding:30px;
     top:150px;
@@ -16,8 +24,36 @@ body{
 .boxwidth{
     margin: 0 auto;
 }
+.flexlogo{
+    height:100px;
+    margin:0px 10px;
+}
 .inputbox{
-    padding:5px;  
+    padding:5px;
+    height:100px;  
+}
+.flexnav{
+    display:flex;
+    flex-direction:row;
+    justify-content:space-between;
+    width:auto;
+}
+.flexsearch{
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    flex:3;
+    margin:0px 10px;
+}
+.flexsign{
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    margin:0px 10px;
+    padding:5px;
+}
+button{
+    min-width:65px;
 }
 .linkdecor{
     text-decoration: none; 
@@ -69,4 +105,7 @@ body{
         margin:10px 10px 0px 0px;
     
     }
+}
+@media(max-width:690px){
+    
 }
