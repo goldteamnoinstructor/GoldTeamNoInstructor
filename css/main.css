@@ -4,6 +4,12 @@
     height:100%;
 }
 
+.cardBox {
+    display: flex;
+    flex-direction: column;
+}
+
+
 .drugs {
     display: flex;
     flex-direction: row;
@@ -94,6 +100,26 @@
     margin-bottom: 10px;
 }
 
+.mammogram {
+    display: flex;
+    flex-direction: row;
+    background-image: linear-gradient(to right, #f54cff, #f4a9f5);
+    border-style: solid;
+    border-width: 1px;
+    border-radius: 10px;
+    margin-bottom: 10px;
+}
+
+.prostate {
+    display: flex;
+    flex-direction: row;
+    background-image: linear-gradient(to right, #ffb529, #f5db85);
+    border-style: solid;
+    border-width: 1px;
+    border-radius: 10px;
+    margin-bottom: 10px;
+}
+
 .pic {
     height: 348px;
     width: auto;
@@ -161,6 +187,14 @@
 }
 
 #underweight {
+    display: none;
+}
+
+#mammogram {
+    display: none;
+}
+
+#prostate {
     display: none;
 }
 
@@ -256,6 +290,26 @@
         margin-bottom: 10px;
     }
 
+
+    .mammogram {
+        display: flex;
+        flex-direction: column;
+        background-image: linear-gradient(to right, #f54cff, #f4a9f5);
+        border-style: solid;
+        border-width: 1px;
+        border-radius: 10px;
+        margin-bottom: 10px;
+    }
+
+    .prostate {
+        display: flex;
+        flex-direction: column;
+        background-image: linear-gradient(to right, #ffb529, #f5db85);
+        border-style: solid;
+        border-width: 1px;
+        border-radius: 10px;
+        margin-bottom: 10px;
+    }
     
     .titleAndText {
         display: flex;
