@@ -38,16 +38,16 @@
                     <form class="container-fluid">
                         <div class="row">
                             <div class="formspacing col-xs-4 col-md-4">
-                                <label for="formGroupExampleInput">Age</label>
-                                <input type="text" class="form-control" id="formGroupExampleInput">
+                                <label for="age">Age</label>
+                                <input type="text" class="form-control" id="age" onkeyup="ageSex()">
                             </div>
                             <div class="formspacing col-xs-4 col-md-4">
                                 <label for="height">Height</label>
-                                <input type="text" class="form-control" id="height" onkeyup="calcBMI () ">
+                                <input type="text" class="form-control" id="height" onkeyup="calcBMI()">
                             </div>
                             <div class="formspacing col-xs-4 col-md-4">
                                 <label for="weight">Weight</label>
-                                <input type="text" class="form-control" id="weight" onkeyup="calcBMI () ">
+                                <input type="text" class="form-control" id="weight" onkeyup="calcBMI()">
                             </div>
                         </div>
                         <div class="row formspacing">
@@ -55,8 +55,9 @@
                             <input type="text" class="form-control" id="formGroupExampleInput4">
                         </div>
                         <div class="row formspacing">
-                            <label for="exampleFormControlSelect1">Sex</label>
-                            <select class="form-control" id="exampleFormControlSelect1">
+                            <label for="sex">Sex</label>
+                            <select class="form-control" id="sex" onchange="ageSex()">
+                                <option>--Choose--</option>
                                 <option>Male</option>
                                 <option>Female</option>
                                 <option>Other</option>
@@ -150,10 +151,15 @@
                     </form>
                 </div>
             </div>
-            <!-- ------------------------------------------>
+
+
+
             <div class="cardBox flextest">
+
+                <!------------------------------------------------------ CARD BOX 1 Drugs -------------------------------------------->
+
                 <section id="drugs">
-                    <div class="drugs" id="card1">                                                  <!-- Everything -->
+                    <div class="drugs" id="card1">
                         <!--<h1 class="cardTitle">Struggling with Addiction?</h1>-->
                         <!--<div class="cardContainer">-->
                         <div class="picContainer col-md">
@@ -580,6 +586,109 @@
                                     <ul>
                                         <li>
                                             <a href="https://namifresno.org/eating-disorders/">NAMI Fresno: Eating Disorders</a>
+                                        </li>
+                                        <li>
+                                            <a href="">Lorem ipsum dolor sit amet, consectetur adipisicing elit.</a>
+
+                                        </li>
+                                        <li>
+                                            <a href="">Lorem ipsum dolor sit amet, consectetur adipisicing elit.</a>
+                                        </li>
+                                        <li>
+                                            <a href="">Lorem ipsum dolor sit amet, consectetur adipisicing.</a>
+                                        </li>
+                                        <li>
+                                            <a href="">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Architecto.</a>
+                                        </li>
+                                        <li>
+                                            <a href="">Lorem ipsum dolor sit amet.</a>
+                                        </li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </section>
+
+
+                <!------------------------------------------------------ CARD BOX 10 Mammogram - Sex female, Age > 50 ---------------------------------------->
+
+                <section id="mammogram">
+                    <div class="mammogram" id="card10">                                                  <!-- Everything -->
+                        <!--<h1 class="cardTitle">Struggling with Addiction?</h1>-->
+                        <!--<div class="cardContainer">-->
+                        <div class="picContainer">
+                            <!-- <img class="pic" src="images/disabled.jpg"> -->
+                        </div>
+                        <div class="titleAndText">      <!-- Title and text -->
+                            <div>
+                                <h1 class="title">Are you getting tested?</h1>
+                            </div>
+                            <div class="rightHalf">
+                                <div class="blurb">
+                                    <h4>Women over 50 should get regular mammograms every one to two years</h4>
+                                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Deserunt distinctio eligendi harum hic labore, nostrum!
+                                        Animi consequuntur dignissimos distinctio dolorem doloremque esse fuga, harum illo incidunt ipsam minus nemo neque nobis,
+                                        optio perferendis placeat quas repellat sapiente similique sint tempore totam, velit voluptatum? Atque corporis delectus deleniti,
+                                        eligendi eos eum eveniet illo.
+                                    </p>
+                                </div>
+                                <div class="links">
+                                    <h5>Resources</h5>
+                                    <ul>
+                                        <li>
+                                            <a href="https://www.radnet.com/central-california/locations/fresno-imaging-center">Mammography in Fresno</a>
+                                        </li>
+                                        <li>
+                                            <a href="">Lorem ipsum dolor sit amet, consectetur adipisicing elit.</a>
+
+                                        </li>
+                                        <li>
+                                            <a href="">Lorem ipsum dolor sit amet, consectetur adipisicing elit.</a>
+                                        </li>
+                                        <li>
+                                            <a href="">Lorem ipsum dolor sit amet, consectetur adipisicing.</a>
+                                        </li>
+                                        <li>
+                                            <a href="">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Architecto.</a>
+                                        </li>
+                                        <li>
+                                            <a href="">Lorem ipsum dolor sit amet.</a>
+                                        </li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </section>
+
+                <!------------------------------------------------------ CARD BOX 11 Prostate Screening - Sex male, Age > 50 ---------------------------------------->
+
+                <section id="prostate">
+                    <div class="prostate" id="card11">                                                  <!-- Everything -->
+                        <!--<h1 class="cardTitle">Struggling with Addiction?</h1>-->
+                        <!--<div class="cardContainer">-->
+                        <div class="picContainer">
+                            <!-- <img class="pic" src="images/disabled.jpg"> -->
+                        </div>
+                        <div class="titleAndText">      <!-- Title and text -->
+                            <div>
+                                <h1 class="title">Prostate Cancer Screenings</h1>
+                            </div>
+                            <div class="rightHalf">
+                                <div class="blurb">
+                                    <h4>Men over 50 should discuss screenings with their provider</h4>
+                                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Deserunt distinctio eligendi harum hic labore, nostrum!
+                                        Animi consequuntur dignissimos distinctio dolorem doloremque esse fuga, harum illo incidunt ipsam minus nemo neque nobis,
+                                        optio perferendis placeat quas repellat sapiente similique sint tempore totam, velit voluptatum? Atque corporis delectus deleniti,
+                                        eligendi eos eum eveniet illo.
+                                    </p>
+                                </div>
+                                <div class="links">
+                                    <h5>Resources</h5>
+                                    <ul>
+                                        <li>
+                                            <a href="https://www.healthtestingcenters.com/prostate-testing/california/fresno/">Prostate Cancer Screenings Fresno</a>
                                         </li>
                                         <li>
                                             <a href="">Lorem ipsum dolor sit amet, consectetur adipisicing elit.</a>
