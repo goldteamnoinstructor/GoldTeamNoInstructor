@@ -78,15 +78,16 @@ function createCards(issue,resource,index){
     const description = issue[index].description;
     const picture = issue[index].image;
     const type = issue[index].name;
-    console.log(picture);
+    
 
     cardStyle.classList.add('heart');
     cardContainer.classList.add('cardBox','col-10','ml-auto');
+    cardContainer.id='card';
     cardStyle.id='card3';
     imgContainer.classList.add('picContainer');
     image.classList.add('pic');
     image.src= picture;
-    console.log(image.src);
+    
     infoContainer.classList.add('titleAndText');
     title.classList.add('title');
     title.innerHTML='Heart Disease is Preventable';
@@ -126,11 +127,22 @@ function createCards(issue,resource,index){
 }
 function deleteCards(query){
     const element = document.querySelector('#retro');
-    if(query){
-        while(element.firstChild){
-            element.firstChild.remove();
-        }
-    }    
+    const targets = document.querySelectorAll('#card');
+    
+    if(!targets.length==0){
+        for(item=0;item<targets.length;item++){
+            targets[item].remove();
+        }        
+        
+    }else{
+        console.log(2);
+    }
+    // if(query&&targets){
+    //     // while(element.firstChild){
+    //     //     element.firstChild.remove();
+    //     // }
+
+    // }    
 }
 
 // createfiles(issues,resoruces);

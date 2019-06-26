@@ -6,6 +6,7 @@ search.addEventListener('submit',(event)=>{
     deleteCards(query);
     issues.forEach(element => {
        if( element.tags.includes(query)){
+            
             createCards(issues,resources,issues.indexOf(element));
        }else{
             console.log('not inside array');
