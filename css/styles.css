@@ -4,7 +4,7 @@ body{
 }
 
 .navdim{
-    max-height:120px;
+    height:120px;
     display:inline-block;
 }
 #width{
@@ -56,7 +56,7 @@ button{
     min-width:65px;
 }
 .linkdecor{
-    text-decoration: none; 
+    list-style-type: none; 
 }
 .btnsize{
     min-width:100px;
@@ -106,6 +106,38 @@ button{
     
     }
 }
-@media(max-width:690px){
-    
+@media(max-width:676px){
+    .flexnav{
+        display:flex;
+        flex-direction:column;
+        justify-content:space-between;
+        width:auto;
+    }
+    .flexsearch{
+        display:flex;
+        justify-content:center;
+        align-items:center;
+        flex:3;
+        margin:0px 10px;
+        order:3;
+    }
+    .flexsign{
+        display:flex;
+        justify-content:center;
+        align-items:center;
+        margin:0px 10px;
+        padding:5px;
+        flex-direction: row;
+        order:2;
+    }
+    .flexlogo{
+        height:100px;
+        margin:0px 10px;
+        display:flex;
+        justify-content:center;
+        order:1;
+    }
+    .navdim{
+        height:220px;
+    }
 }
