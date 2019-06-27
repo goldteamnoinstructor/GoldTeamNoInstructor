@@ -6,22 +6,42 @@
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <link rel="stylesheet" href="css/bootstrap.min.css">
     <link rel="stylesheet" href="css/styles.css">
-    <title>Helpfully Healthy</title>
+    <title>Helpfully Healthy: Sign-In</title>
 </head>
 <body>
+    <header class="container-fluid inputback">
+        <nav class="row flexnav navdim">
+            <div class="flexlogo" href="#">
+                <img src="./images/logo.png" class="flexlogo" alt="logo">
+            </div>
+            <form class="inputbox flexsearch">
+                <input  class="flexsearch" type="search" placeholder="Search" aria-label="Search" id="width">
+                <button class="btn btn-outline-success btn-primary" type="submit">Search</button>
+            </form>
+            <ul class="navbar-nav inputbox flexsign btn-toggle">
+                <li class="navbar-item flexsign linkdecor">
+                    <button class="navbar-link flexsign btn btn-outline-success btn-primary" href="./home.html">Home</button>
+                </li>
+                <li class="navbar-item flexsign linkdecor">
+                    <button class="navbar-link btn btn-outline-success btn-primary" href="./sign-up.html">Sign-Up</button>
+                </li>
+            </ul>
+        </nav>
+    </header>
     <div class="container">
         <div class="row">
-            <form id="signbox" class="col-md-4 col-md-offset-4">
+            <form id="signbox" class="col-md-6 col-md-offset-3">
+                    <img src="./images/logo.png" alt="logo" class="imagecenter">
                 <div class="inputbox">
-                    <label>Username<br><input class="boxwidth"></label>
-                    
+                    <label>Username</label>
+                    <input class="col-xs-12">
                 </div>
                 <div class="inputbox">
-                    <label>Password<br><input class="boxwidth"></label>
-                    
+                    <label>Password</label>
+                    <input class="col-xs-12">
                 </div>
                 <div class="row">
-                    <button class="col-md-4 col-md-offset-4">Sign-In</button>
+                    <button class="col-md-4 col-md-offset-4 btn btn-outline-success btn-primary">Sign-In</button>
                 </div>
                 
             </form>

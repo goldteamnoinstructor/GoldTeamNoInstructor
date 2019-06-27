@@ -2,12 +2,13 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <title>GoldTeam</title>
+    <title>HelpfullyHealth: Home</title>
+    <link rel="stylesheet" type="text/css" href="main.css">
     <link rel="stylesheet" href="css/bootstrap.min.css">
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.2/css/all.css" integrity="sha384-oS3vJWv+0UjzBfQzYUhtDYW+Pj2yciDJxpsK1OYPAYjqT085Qq/1cq5FLXAZQ7Ay" crossorigin="anonymous">
+    
     <link rel="stylesheet" href="css/styles.css">
     <link rel="stylesheet" href="css/main.css">
-
 </head>
 
 <body>
@@ -25,7 +26,7 @@
                 <button class="navbar-link flexsign btn btn-outline-success btn-primary" href="./sign-up.html">Sign-Up</button>
             </li>
             <li class="navbar-item flexsign linkdecor">
-                <button class="navbar-link btn btn-outline-success btn-primary" href="./index.html">Sign-In</button>
+                <button class="navbar-link btn btn-outline-success btn-primary" href="./login.html">Sign-In</button>
             </li>
         </ul>
     </nav>
@@ -39,26 +40,25 @@
                     <form class="container-fluid">
                         <div class="row">
                             <div class="formspacing col-xs-4 col-md-4">
-                                <label for="age">Age</label>
-                                <input type="text" class="form-control" id="age" onkeyup="ageSex()">
+                                <label for="formGroupExampleInput">Age</label>
+                                <input type="text" class="form-control" id="formGroupExampleInput">
                             </div>
                             <div class="formspacing col-xs-4 col-md-4">
-                                <label for="height">Height</label>
-                                <input type="text" class="form-control" id="height" onkeyup="calcBMI()">
+                                <label for="formGroupExampleInput2">Weight</label>
+                                <input type="text" class="form-control" id="formGroupExampleInput2">
                             </div>
                             <div class="formspacing col-xs-4 col-md-4">
-                                <label for="weight">Weight</label>
-                                <input type="text" class="form-control" id="weight" onkeyup="calcBMI()">
+                                <label for="formGroupExampleInput3">Height</label>
+                                <input type="text" class="form-control" id="formGroupExampleInput3">
                             </div>
                         </div>
                         <div class="row formspacing">
-                            <label for="formGroupExampleInput4">Ethnicity</label>
+                            <label for="formGroupExampleInput2">Ethnicity</label>
                             <input type="text" class="form-control" id="formGroupExampleInput4">
                         </div>
                         <div class="row formspacing">
-                            <label for="sex">Sex</label>
-                            <select class="form-control" id="sex" onchange="ageSex()">
-                                <option>--Choose--</option>
+                            <label for="exampleFormControlSelect1">Sex</label>
+                            <select class="form-control" id="exampleFormControlSelect1">
                                 <option>Male</option>
                                 <option>Female</option>
                                 <option>Other</option>
@@ -70,8 +70,8 @@
                     <h4>Medical History</h4>
                     <form>
                         <div class="form-check">
-                            <input class="form-check-input" type="checkbox" value="" id="heartDisease">
-                            <label class="form-check-label" for="heartDisease">
+                            <input class="form-check-input" type="checkbox" value="" id="defaultCheck1">
+                            <label class="form-check-label" for="defaultCheck1">
                                 Heart Disease
                             </label>
                         </div>
@@ -82,9 +82,9 @@
                             </label>
                         </div>
                         <div class="form-check">
-                            <input class="form-check-input" type="checkbox" value="" id="disabilityCheck">
-                            <label class="form-check-label" for="disabilityCheck">
-                                Chronic Pain
+                            <input class="form-check-input" type="checkbox" value="" id="defaultCheck3">
+                            <label class="form-check-label" for="defaultCheck2">
+                                LOREM
                             </label>
                         </div>
                         <div class="form-check">
@@ -98,14 +98,14 @@
                     <h4>Risk Factors</h4>
                     <form>
                         <div class="form-check">
-                            <input class="form-check-input" type="checkbox" value="" id="drugsCheck">
-                            <label class="form-check-label" for="drugsCheck">
+                            <input class="form-check-input" type="checkbox" value="" id="defaultCheck5">
+                            <label class="form-check-label" for="defaultCheck1">
                                 Drugs
                             </label>
                         </div>
                         <div class="form-check">
-                            <input class="form-check-input" type="checkbox" value="" id="sexCheck">
-                            <label class="form-check-label" for="sexCheck">
+                            <input class="form-check-input" type="checkbox" value="" id="defaultCheck6">
+                            <label class="form-check-label" for="defaultCheck2">
                                 Sex
                             </label>
                         </div>
@@ -127,7 +127,7 @@
                     <form>
                         <div class="form-check">
                             <input class="form-check-input" type="checkbox" value="" id="defaultCheck9">
-                            <label class="form-check-label" for="defaultCheck9">
+                            <label class="form-check-label" for="defaultCheck1">
                                 Heart Disease
                             </label>
                         </div>
@@ -138,8 +138,8 @@
                             </label>
                         </div>
                         <div class="form-check">
-                            <input class="form-check-input" type="checkbox" value="" id="asthmaCheck">
-                            <label class="form-check-label" for="asthmaCheck">
+                            <input class="form-check-input" type="checkbox" value="" id="defaultCheck11">
+                            <label class="form-check-label" for="defaultCheck2">
                                 Asthma
                             </label>
                         </div>
@@ -152,19 +152,14 @@
                     </form>
                 </div>
             </div>
-
-
-
+            <!-- ------------------------------------------>
             <div class="cardBox flextest">
-
-                <!------------------------------------------------------ CARD BOX 1 Drugs -------------------------------------------->
-
-                <section id="drugs">
-                    <div class="drugs" id="card1">
+                <section>
+                    <div class="drugs" id="card1">                                                  <!-- Everything -->
                         <!--<h1 class="cardTitle">Struggling with Addiction?</h1>-->
                         <!--<div class="cardContainer">-->
-                        <div class="picContainer col-md">
-                            <!-- <img class="pic" src="/images/drugs.jpeg"> -->
+                        <div class="picContainer pic1">
+                            <!-- <img class="" src="/images/drugs.jpeg"> -->
                         </div>
                         <div class="titleAndText">      <!-- Title and text -->
                            <div>
@@ -209,12 +204,12 @@
                 
                 <!------------------------------------------------------ CARD BOX 2 Asthma -------------------------------------------->
                 
-                <section id="asthma">
+                <section>
                     <div class="condition" id="card2">                                                  <!-- Everything -->
                         <!--<h1 class="cardTitle">Struggling with Addiction?</h1>-->
                         <!--<div class="cardContainer">-->
-                        <div class="picContainer">
-                            <!-- <img class="pic" src="/images/asthma.jpg"> -->
+                        <div class="picContainer pic2">
+                            <!-- <img class="" src="./images/asthma.jpg"> -->
                         </div>
                         <div class="titleAndText">      <!-- Title and text -->
                             <div>
@@ -259,12 +254,12 @@
                 
                 <!------------------------------------------------------ CARD BOX 3 Heart Disease ------------------------------------->
                 
-                <section id="heart">
+                <section>
                     <div class="heart" id="card3">                                                  <!-- Everything -->
                         <!--<h1 class="cardTitle">Struggling with Addiction?</h1>-->
                         <!--<div class="cardContainer">-->
-                        <div class="picContainer">
-                            <!-- <img class="pic" src="images/heartDisease.png"> -->
+                        <div class="picContainer pic3">
+                            <!-- <img class="" src="images/heartDisease.png"> -->
                         </div>
                         <div class="titleAndText">      <!-- Title and text -->
                             <div>
@@ -309,12 +304,12 @@
                 
                 <!------------------------------------------------------ CARD BOX 4 AIDS ---------------------------------------------->
                 
-                <section id="aids">
+                <section>
                     <div class="std" id="card4">                                                  <!-- Everything -->
                         <!--<h1 class="cardTitle">Struggling with Addiction?</h1>-->
                         <!--<div class="cardContainer">-->
-                        <div class="picContainer">
-                            <!-- <img class="pic" src="images/condom.jpg"> -->
+                        <div class="picContainer pic4">
+                            <!-- <img class="" src="images/condom.jpg"> -->
                         </div>
                         <div class="titleAndText">      <!-- Title and text -->
                             <div>
@@ -359,12 +354,12 @@
                 
                 <!------------------------------------------------------ CARD BOX 5 Disability ---------------------------------------->
                 
-                <section id="disability">
+                <section>
                     <div class="disability" id="card5">                                                  <!-- Everything -->
                         <!--<h1 class="cardTitle">Struggling with Addiction?</h1>-->
                         <!--<div class="cardContainer">-->
-                        <div class="picContainer">
-                            <!-- <img class="pic" src="images/disabled.jpg"> -->
+                        <div class="picContainer pic5">
+                            <!-- <img class="" src="./images/disabled.jpg"> -->
                         </div>
                         <div class="titleAndText">      <!-- Title and text -->
                             <div>
@@ -406,323 +401,12 @@
                         </div>
                     </div>
                 </section>
-
-                <!------------------------------------------------------ CARD BOX 6 Obese ---------------------------------------->
-
-                <section id="obese">
-                    <div class="obese" id="card6">                                                  <!-- Everything -->
-                        <!--<h1 class="cardTitle">Struggling with Addiction?</h1>-->
-                        <!--<div class="cardContainer">-->
-                        <div class="picContainer">
-                            <!-- <img class="pic" src="images/disabled.jpg"> -->
-                        </div>
-                        <div class="titleAndText">      <!-- Title and text -->
-                            <div>
-                                <h1 class="title">Understanding Obesity</h1>
-                            </div>
-                            <div class="rightHalf">
-                                <div class="blurb">
-                                    <h4>Lorem Ipsum</h4>
-                                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Deserunt distinctio eligendi harum hic labore, nostrum!
-                                        Animi consequuntur dignissimos distinctio dolorem doloremque esse fuga, harum illo incidunt ipsam minus nemo neque nobis,
-                                        optio perferendis placeat quas repellat sapiente similique sint tempore totam, velit voluptatum? Atque corporis delectus deleniti,
-                                        eligendi eos eum eveniet illo.
-                                    </p>
-                                </div>
-                                <div class="links">
-                                    <h5>Resources</h5>
-                                    <ul>
-                                        <li>
-                                            <a href="http://www.cultivalasalud.org/">Central California Regional Obesity Prevention Program</a>
-                                        </li>
-                                        <li>
-                                            <a href="">Lorem ipsum dolor sit amet, consectetur adipisicing elit.</a>
-
-                                        </li>
-                                        <li>
-                                            <a href="">Lorem ipsum dolor sit amet, consectetur adipisicing elit.</a>
-                                        </li>
-                                        <li>
-                                            <a href="">Lorem ipsum dolor sit amet, consectetur adipisicing.</a>
-                                        </li>
-                                        <li>
-                                            <a href="">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Architecto.</a>
-                                        </li>
-                                        <li>
-                                            <a href="">Lorem ipsum dolor sit amet.</a>
-                                        </li>
-                                    </ul>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </section>
-
-                <!------------------------------------------------------ CARD BOX 7 Overweight ---------------------------------------->
-
-                <section id="overweight">
-                    <div class="overweight" id="card7">                                                  <!-- Everything -->
-                        <!--<h1 class="cardTitle">Struggling with Addiction?</h1>-->
-                        <!--<div class="cardContainer">-->
-                        <div class="picContainer">
-                            <!-- <img class="pic" src="images/disabled.jpg"> -->
-                        </div>
-                        <div class="titleAndText">      <!-- Title and text -->
-                            <div>
-                                <h1 class="title">Want to lose a few pounds?</h1>
-                            </div>
-                            <div class="rightHalf">
-                                <div class="blurb">
-                                    <h4>Lorem Ipsum</h4>
-                                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Deserunt distinctio eligendi harum hic labore, nostrum!
-                                        Animi consequuntur dignissimos distinctio dolorem doloremque esse fuga, harum illo incidunt ipsam minus nemo neque nobis,
-                                        optio perferendis placeat quas repellat sapiente similique sint tempore totam, velit voluptatum? Atque corporis delectus deleniti,
-                                        eligendi eos eum eveniet illo.
-                                    </p>
-                                </div>
-                                <div class="links">
-                                    <h5>Resources</h5>
-                                    <ul>
-                                        <li>
-                                            <a href="https://www.facebook.com/DoubleTime559/">Double Time Fitness</a>
-                                        </li>
-                                        <li>
-                                            <a href="">Lorem ipsum dolor sit amet, consectetur adipisicing elit.</a>
-
-                                        </li>
-                                        <li>
-                                            <a href="">Lorem ipsum dolor sit amet, consectetur adipisicing elit.</a>
-                                        </li>
-                                        <li>
-                                            <a href="">Lorem ipsum dolor sit amet, consectetur adipisicing.</a>
-                                        </li>
-                                        <li>
-                                            <a href="">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Architecto.</a>
-                                        </li>
-                                        <li>
-                                            <a href="">Lorem ipsum dolor sit amet.</a>
-                                        </li>
-                                    </ul>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </section>
-
-                <!------------------------------------------------------ CARD BOX 8 Healthy Weight ---------------------------------------->
-
-                <section id="healthy">
-                    <div class="healthy" id="card8">                                                  <!-- Everything -->
-                        <!--<h1 class="cardTitle">Struggling with Addiction?</h1>-->
-                        <!--<div class="cardContainer">-->
-                        <div class="picContainer">
-                            <!-- <img class="pic" src="images/disabled.jpg"> -->
-                        </div>
-                        <div class="titleAndText">      <!-- Title and text -->
-                            <div>
-                                <h1 class="title">Staying Healthy</h1>
-                            </div>
-                            <div class="rightHalf">
-                                <div class="blurb">
-                                    <h4>Lorem Ipsum</h4>
-                                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Deserunt distinctio eligendi harum hic labore, nostrum!
-                                        Animi consequuntur dignissimos distinctio dolorem doloremque esse fuga, harum illo incidunt ipsam minus nemo neque nobis,
-                                        optio perferendis placeat quas repellat sapiente similique sint tempore totam, velit voluptatum? Atque corporis delectus deleniti,
-                                        eligendi eos eum eveniet illo.
-                                    </p>
-                                </div>
-                                <div class="links">
-                                    <h5>Resources</h5>
-                                    <ul>
-                                        <li>
-                                            <a href="https://www.facebook.com/DoubleTime559/">Double Time Fitness</a>
-                                        </li>
-                                        <li>
-                                            <a href="">Lorem ipsum dolor sit amet, consectetur adipisicing elit.</a>
-
-                                        </li>
-                                        <li>
-                                            <a href="">Lorem ipsum dolor sit amet, consectetur adipisicing elit.</a>
-                                        </li>
-                                        <li>
-                                            <a href="">Lorem ipsum dolor sit amet, consectetur adipisicing.</a>
-                                        </li>
-                                        <li>
-                                            <a href="">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Architecto.</a>
-                                        </li>
-                                        <li>
-                                            <a href="">Lorem ipsum dolor sit amet.</a>
-                                        </li>
-                                    </ul>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </section>
-
-                <!------------------------------------------------------ CARD BOX 9 Underweight ---------------------------------------->
-
-                <section id="underweight">
-                    <div class="underweight" id="card9">                                                  <!-- Everything -->
-                        <!--<h1 class="cardTitle">Struggling with Addiction?</h1>-->
-                        <!--<div class="cardContainer">-->
-                        <div class="picContainer">
-                            <!-- <img class="pic" src="images/disabled.jpg"> -->
-                        </div>
-                        <div class="titleAndText">      <!-- Title and text -->
-                            <div>
-                                <h1 class="title">Underweight? Learn how to add pounds healthfully</h1>
-                            </div>
-                            <div class="rightHalf">
-                                <div class="blurb">
-                                    <h4>Lorem Ipsum</h4>
-                                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Deserunt distinctio eligendi harum hic labore, nostrum!
-                                        Animi consequuntur dignissimos distinctio dolorem doloremque esse fuga, harum illo incidunt ipsam minus nemo neque nobis,
-                                        optio perferendis placeat quas repellat sapiente similique sint tempore totam, velit voluptatum? Atque corporis delectus deleniti,
-                                        eligendi eos eum eveniet illo.
-                                    </p>
-                                </div>
-                                <div class="links">
-                                    <h5>Resources</h5>
-                                    <ul>
-                                        <li>
-                                            <a href="https://namifresno.org/eating-disorders/">NAMI Fresno: Eating Disorders</a>
-                                        </li>
-                                        <li>
-                                            <a href="">Lorem ipsum dolor sit amet, consectetur adipisicing elit.</a>
-
-                                        </li>
-                                        <li>
-                                            <a href="">Lorem ipsum dolor sit amet, consectetur adipisicing elit.</a>
-                                        </li>
-                                        <li>
-                                            <a href="">Lorem ipsum dolor sit amet, consectetur adipisicing.</a>
-                                        </li>
-                                        <li>
-                                            <a href="">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Architecto.</a>
-                                        </li>
-                                        <li>
-                                            <a href="">Lorem ipsum dolor sit amet.</a>
-                                        </li>
-                                    </ul>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </section>
-
-
-                <!------------------------------------------------------ CARD BOX 10 Mammogram - Sex female, Age > 50 ---------------------------------------->
-
-                <section id="mammogram">
-                    <div class="mammogram" id="card10">                                                  <!-- Everything -->
-                        <!--<h1 class="cardTitle">Struggling with Addiction?</h1>-->
-                        <!--<div class="cardContainer">-->
-                        <div class="picContainer">
-                            <!-- <img class="pic" src="images/disabled.jpg"> -->
-                        </div>
-                        <div class="titleAndText">      <!-- Title and text -->
-                            <div>
-                                <h1 class="title">Are you getting tested?</h1>
-                            </div>
-                            <div class="rightHalf">
-                                <div class="blurb">
-                                    <h4>Women over 50 should get regular mammograms every one to two years</h4>
-                                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Deserunt distinctio eligendi harum hic labore, nostrum!
-                                        Animi consequuntur dignissimos distinctio dolorem doloremque esse fuga, harum illo incidunt ipsam minus nemo neque nobis,
-                                        optio perferendis placeat quas repellat sapiente similique sint tempore totam, velit voluptatum? Atque corporis delectus deleniti,
-                                        eligendi eos eum eveniet illo.
-                                    </p>
-                                </div>
-                                <div class="links">
-                                    <h5>Resources</h5>
-                                    <ul>
-                                        <li>
-                                            <a href="https://www.radnet.com/central-california/locations/fresno-imaging-center">Mammography in Fresno</a>
-                                        </li>
-                                        <li>
-                                            <a href="">Lorem ipsum dolor sit amet, consectetur adipisicing elit.</a>
-
-                                        </li>
-                                        <li>
-                                            <a href="">Lorem ipsum dolor sit amet, consectetur adipisicing elit.</a>
-                                        </li>
-                                        <li>
-                                            <a href="">Lorem ipsum dolor sit amet, consectetur adipisicing.</a>
-                                        </li>
-                                        <li>
-                                            <a href="">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Architecto.</a>
-                                        </li>
-                                        <li>
-                                            <a href="">Lorem ipsum dolor sit amet.</a>
-                                        </li>
-                                    </ul>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </section>
-
-                <!------------------------------------------------------ CARD BOX 11 Prostate Screening - Sex male, Age > 50 ---------------------------------------->
-
-                <section id="prostate">
-                    <div class="prostate" id="card11">                                                  <!-- Everything -->
-                        <!--<h1 class="cardTitle">Struggling with Addiction?</h1>-->
-                        <!--<div class="cardContainer">-->
-                        <div class="picContainer">
-                            <!-- <img class="pic" src="images/disabled.jpg"> -->
-                        </div>
-                        <div class="titleAndText">      <!-- Title and text -->
-                            <div>
-                                <h1 class="title">Prostate Cancer Screenings</h1>
-                            </div>
-                            <div class="rightHalf">
-                                <div class="blurb">
-                                    <h4>Men over 50 should discuss screenings with their provider</h4>
-                                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Deserunt distinctio eligendi harum hic labore, nostrum!
-                                        Animi consequuntur dignissimos distinctio dolorem doloremque esse fuga, harum illo incidunt ipsam minus nemo neque nobis,
-                                        optio perferendis placeat quas repellat sapiente similique sint tempore totam, velit voluptatum? Atque corporis delectus deleniti,
-                                        eligendi eos eum eveniet illo.
-                                    </p>
-                                </div>
-                                <div class="links">
-                                    <h5>Resources</h5>
-                                    <ul>
-                                        <li>
-                                            <a href="https://www.healthtestingcenters.com/prostate-testing/california/fresno/">Prostate Cancer Screenings Fresno</a>
-                                        </li>
-                                        <li>
-                                            <a href="">Lorem ipsum dolor sit amet, consectetur adipisicing elit.</a>
-
-                                        </li>
-                                        <li>
-                                            <a href="">Lorem ipsum dolor sit amet, consectetur adipisicing elit.</a>
-                                        </li>
-                                        <li>
-                                            <a href="">Lorem ipsum dolor sit amet, consectetur adipisicing.</a>
-                                        </li>
-                                        <li>
-                                            <a href="">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Architecto.</a>
-                                        </li>
-                                        <li>
-                                            <a href="">Lorem ipsum dolor sit amet.</a>
-                                        </li>
-                                    </ul>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </section>
-
-
-
             </div>    
         </div>
     </div>
 
 
 
-<script type="text/javascript" src="js/checkboxFilter.js"></script>
 
 
 </body>
