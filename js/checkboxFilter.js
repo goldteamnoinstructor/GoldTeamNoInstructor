@@ -108,7 +108,6 @@ function calcBMI () {
 
 
 function ageSex () {
-
     var age = document.getElementById("age").value;
     var sex = document.getElementById("sex").value;
     var mammogram = document.getElementById("mammogram");

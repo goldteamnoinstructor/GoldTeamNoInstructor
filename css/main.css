@@ -121,7 +121,55 @@
 }
 
 .pic {
-    height: 348px;
+    background-image: url("../images/disabled.jpg");
+    background-size: cover;
+    background-position:right;
+    min-height: 350px;
+    width: auto;
+    border-radius: 10px;
+    margin-right: 20px;
+}
+.pic1 {
+    background-image: url("../images/drugs.jpg");
+    background-size: cover;
+    background-position:center;
+    height: 350px;
+    width: auto;
+    border-radius: 10px;
+    margin-right: 20px;
+}
+.pic2 {
+    background-image: url("../images/asthma.jpg");
+    background-size: cover;
+    background-position:center;
+    height: 350px;
+    width: auto;
+    border-radius: 10px;
+    margin-right: 20px;
+}
+.pic3 {
+    background-image: url("../images/heartDisease.png");
+    background-size: cover;
+    background-position:center;
+    height: 350px;
+    width: auto;
+    border-radius: 10px;
+    margin-right: 20px;
+}
+.pic4 {
+    background-image: url("../images/condom.jpg");
+    background-size: cover;
+    background-position:center;
+    height: 350px;
+    width: auto;
+    border-radius: 10px;
+    margin-right: 20px;
+}
+.pic5 {
+    background-image: url("../images/disabled.jpg");
+    background-size: cover;
+    background-position:center;
+    height: 350px;
     width: auto;
     border-radius: 10px;
     margin-right: 20px;
@@ -198,6 +246,9 @@
     display: none;
 }
 
+.noshow{
+    display: none;
+}
 @media(max-width:992px){
     
     .drugs {
@@ -321,16 +372,49 @@
         background-image:url(/images/drugs.jpeg);
         background-size:cover;
         flex:1;
-        width:auto;
+        width:100%;
+        height:auto;
         justify-content:space-around;
     }
-    .pic {
-        max-height: 350px;
-        width: auto;
+    .pic1 {
+        background-image: url("../images/drugs.jpeg");
+        background-size: cover;
+        background-position:center;
+        height: auto;
+        width: 100%;
         border-radius: 10px;
-        margin-right: 20px;
-       
-
+    }
+    .pic2 {
+        background-image: url("../images/asthma.jpg");
+        background-size: cover;
+        background-position:center;
+        height: auto;
+        width: 100%;
+        border-radius: 10px;
+    }
+    .pic3 {
+        background-image: url("../images/heartDisease.png");
+        background-size: cover;
+        background-position:center;
+        height: auto;
+        width: 100%;
+        border-radius: 10px;
+    }
+    .pic4 {
+        background-image: url("../images/condom.jpg");
+        background-size: cover;
+        background-position:center;
+        height: auto;
+        width: 100%;
+        border-radius: 10px;
+    }
+    .pic5 {
+        background-image: url("../images/disabled.jpg");
+        background-size: cover;
+        background-position:center;
+        height: auto;
+        width: 100%;
+        border-radius: 10px;
     }
 }
 
