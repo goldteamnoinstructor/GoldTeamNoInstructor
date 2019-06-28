@@ -1,6 +1,6 @@
-window.onload = (event) =>{
-    setup();
-}
+// window.onload = (event) =>{
+//     setup();
+// }
 let apiData;
 
 
