@@ -175,6 +175,68 @@
     margin-right: 20px;
 }
 
+.pic6 {
+    background-image: url("../images/obese.jpg");
+    background-size: cover;
+    background-position:center;
+    height: 350px;
+    width: auto;
+    border-radius: 10px;
+    margin-right: 20px;
+}
+
+.pic7 {
+    background-image: url("../images/overweight.jpg");
+    background-size: cover;
+    background-position:center;
+    height: 350px;
+    width: auto;
+    border-radius: 10px;
+    margin-right: 20px;
+}
+
+.pic8 {
+    background-image: url("../images/healthy.jpg");
+    background-size: cover;
+    background-position:center;
+    height: 350px;
+    width: auto;
+    border-radius: 10px;
+    margin-right: 20px;
+}
+
+.pic9 {
+    background-image: url("../images/underweight.jpg");
+    background-size: cover;
+    background-position:center;
+    height: 350px;
+    width: auto;
+    border-radius: 10px;
+    margin-right: 20px;
+}
+
+.pic10 {
+    background-image: url("../images/mammogram.jpg");
+    background-size: cover;
+    background-position:center;
+    height: 350px;
+    width: auto;
+    border-radius: 10px;
+    margin-right: 20px;
+}
+
+.pic11 {
+    background-image: url("../images/prostate.jpg");
+    background-size: cover;
+    background-position:center;
+    height: 350px;
+    width: auto;
+    border-radius: 10px;
+    margin-right: 20px;
+}
+
+
+
 .titleAndText {
     display: flex;
     flex-direction: column;
@@ -416,6 +478,57 @@
         width: 100%;
         border-radius: 10px;
     }
+    .pic6 {
+        background-image: url("../images/obese.jpg");
+        background-size: cover;
+        background-position:center;
+        height: auto;
+        width: 100%;
+        border-radius: 10px;
+    }
+    .pic7{
+        background-image: url("../images/overweight.jpg");
+        background-size: cover;
+        background-position:center;
+        height: auto;
+        width: 100%;
+        border-radius: 10px;
+    }
+    .pic8{
+        background-image: url("../images/healthy.jpg");
+        background-size: cover;
+        background-position:center;
+        height: auto;
+        width: 100%;
+        border-radius: 10px;
+    }
+    .pic9{
+        background-image: url("../images/underweight.jpg");
+        background-size: cover;
+        background-position:center;
+        height: auto;
+        width: 100%;
+        border-radius: 10px;
+    }
+
+    .pic10 {
+        background-image: url("../images/mammogram.jpg");
+        background-size: cover;
+        background-position:center;
+        height: auto;
+        width: 100%;
+        border-radius: 10px;
+    }
+
+    .pic11 {
+        background-image: url("../images/prostate.jpg");
+        background-size: cover;
+        background-position:center;
+        height: auto;
+        width: 100%;
+        border-radius: 10px;
+    }
+
 }
 
 /******************************** CODE GRAVEYARD ******************************************************/
