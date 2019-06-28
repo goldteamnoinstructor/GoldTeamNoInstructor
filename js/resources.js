@@ -65,6 +65,17 @@ const issues = [
         image:'./images/condom.jpg',
         color:'linear-gradient(to right, #c7ffb9, #a3f5ed)'
     },
+    {
+        name:'Asthma Attack',
+        title:'Helping other during an Allergy attack',
+        effects:['difficulty breathing','chest pain','coughing','wheezing','phlegm'],
+        description: `Stop whatever you are doing and sit upright.Take long, deep breaths. This helps to slow down your breathing and prevent hyperventilation. Breathe in through your nose and breathe out through your mouth.
+        Staying calm may prevent further tightening of your chest muscles and make your breathing easier. Get away from the trigger as soon as possible and go to an air-conditioned environment or any place with clean air.
+        Seek emergency medical help. If the wheezing, coughing and breathing difficulty do not subside after a period of rest, seek immediate medical attention.`,
+        tags:['difficulty breathing','chest pain','coughing','wheezing','phlegm','asthma','asthma attack'],
+        image:'./images/asthma.jpg',
+        color:'linear-gradient(to right, orange, #a3f5ed)'
+    },  
     { 
         name:'Asthma',
         title:'Does the Air Quality have you Feeeling blue?',
@@ -74,4 +85,6 @@ const issues = [
         image:'./images/asthma.jpg',
         color:'linear-gradient(to right, orange, #a3f5ed)'
     }
+
+
 ]

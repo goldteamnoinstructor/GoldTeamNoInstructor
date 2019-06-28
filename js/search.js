@@ -5,7 +5,9 @@ search.addEventListener('submit',(event)=>{
     let query = search['search'].value.toLowerCase();
     search['search'].value="";
     deleteCards(query);
-    issues.forEach(element => {
+    console.log(issues);
+    issues.forEach( element => {
+        console.log(element);
        if( element.tags.includes(query)){
             createCards(issues,resources,issues.indexOf(element));
        }
