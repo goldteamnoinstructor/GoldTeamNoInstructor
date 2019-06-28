@@ -18,9 +18,12 @@ function createCards(issue,resource,index){
     const description = issue[index].description;
     const picture = issue[index].image;
     const type = issue[index].name;
+    const topCard = issue[index].title;
+    const color = issue[index].color;
     const pass=flexOrder;
 
     cardStyle.classList.add('heart');
+    cardStyle.style.backgroundImage=color;
     cardContainer.classList.add('cardBox','col-10','ml-auto');
     cardContainer.id='card';
     cardContainer.style.display='initial';
@@ -31,7 +34,7 @@ function createCards(issue,resource,index){
     imgContainer.style.backgroundImage=`url("${picture}")`
     infoContainer.classList.add('titleAndText');
     title.classList.add('title');
-    title.innerHTML='Heart Disease is Preventable';
+    title.innerHTML=topCard;
     information.classList.add('rightHalf');
     illness.classList.add('blurb');
     name.innerHTML=type;
@@ -82,6 +85,7 @@ function createAllergy(order){
     const list = document.createElement('ul');
 
     cardStyle.classList.add('heart');
+    cardStyle.style.backgroundImage='linear-gradient(to right, orange, #a3f5ed)';
     cardContainer.classList.add('cardBox','col-10','ml-auto');
     cardContainer.id='card';
     cardContainer.style.display='initial';
@@ -132,6 +136,7 @@ function createWeather(order){
 
 
     cardStyle.classList.add('heart');
+    cardStyle.style.backgroundImage='linear-gradient(to right, skyblue, #a3f5ed)';
     cardContainer.classList.add('cardBox','col-10','ml-auto');
     cardContainer.id='card';
     cardContainer.style.display='initial';

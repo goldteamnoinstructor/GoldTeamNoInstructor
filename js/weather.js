@@ -1,6 +1,6 @@
-// window.onload = (event) =>{
-//     setup();
-// }
+window.onload = (event) =>{
+    setup();
+}
 let apiData;
 
 
@@ -9,6 +9,7 @@ function setup(){
     .then(response => {return response.json()})
     .then(data => {
         apiData = data;
+        console.log(data);
         })
     .catch(err => {})
     
@@ -35,6 +36,7 @@ function allergens(){
 
     for(i=0;i<5;i++){
         let listitem = document.createElement('li');
+        listitem.classList.add('colorsize2');
         listitem.innerHTML=`${apiData.DailyForecasts[0].AirAndPollen[i].Name}:${apiData.DailyForecasts[0].AirAndPollen[i].Category}`;
         html.appendChild(listitem);
     }
@@ -54,6 +56,7 @@ function weather(){
     let status = document.querySelector('#heat');
 
     let listitem = document.createElement('li');
+    listitem.classList.add('colorsize');
     listitem.innerHTML=`${apiData.DailyForecasts[0].Temperature.Maximum.Value} F`;
     html.appendChild(listitem);
 
