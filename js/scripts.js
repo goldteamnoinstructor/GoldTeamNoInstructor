@@ -86,7 +86,7 @@ function createAllergy(order){
     const list = document.createElement('ul');
 
     cardStyle.classList.add('heart');
-    cardStyle.style.backgroundImage='linear-gradient(to right, orange, #a3f5ed)';
+    cardStyle.style.backgroundImage='linear-gradient(to right, orange, #ffffff)';
     cardContainer.classList.add('cardBox','col-10','ml-auto');
     cardContainer.id='card';
     cardContainer.style.display='initial';

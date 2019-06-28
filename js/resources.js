@@ -75,7 +75,8 @@ const issues = [
         Seek emergency medical help. If the wheezing, coughing and breathing difficulty do not subside after a period of rest, seek immediate medical attention.`,
         tags:['difficulty breathing','chest pain','coughing','wheezing','phlegm','asthma','asthma attack'],
         image:'./images/attack.png',
-        color:'linear-gradient(to right, orange, #a3f5ed)'
+        color:'linear-gradient(to right, orange, #ffffff)',
+        link: "Baz Allergy Center"
     },  
     { 
         name:'Asthma',
@@ -84,7 +85,7 @@ const issues = [
         description: `A condition in which a person's airways become inflamed, narrow and swell, and produce extra mucus, which makes it difficult to breathe.Asthma can be minor or it can interfere with daily activities. In some cases, it may lead to a life-threatening attack.`,
         tags:['difficulty breathing','chest pain','coughing','wheezing','phlegm','asthma','asthma attack'],
         image:'./images/asthma.jpg',
-        color:'linear-gradient(to right, orange, #a3f5ed)'
+        color:'linear-gradient(to right, orange, #ffffff)'
     }
 
 
