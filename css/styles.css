@@ -167,14 +167,15 @@ button{
     box-shadow:4px 5px 5px;
 }
 
-
-
-
-
-
-
 .colorsize{
-   font-size: 40px;
-   list-style-type: none;
-   color:red;
-}
+    font-size: 40px;
+    list-style-type: none;
+    color:red;
+ }
+
+
+ .colorsize2{
+    font-size: 25px;
+    list-style-type: none;
+    color:brown;
+ }

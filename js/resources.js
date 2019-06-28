@@ -40,44 +40,38 @@ const resources = [
 const issues = [
     {
         name:'Meth',
+        title:'Drug Use',
         effects:['sudden or severe weight loss', 'premature aging of the skin','slow healing sores','blackened rotting teeth','kidney failure','liver failure','hallucination','paranoia','death'],
         description:`The use of Methamphetime(Meth) is dangerous as a highly addictive drug users will develop an increasing need for it to the point it will envelop most of their waking thoughts.It can develop a strong grip on an individuals mental and physical state. The addiction may lead many to engage in riskier behaviors in order to procure more and to neglect their responsabilities for their next rush.`,
         tags:['meth','addiction','blackened rotting teeth','sores','paranoia','hallucination','methamphetime'],
-        image:'./images/drugs.jpg'
+        image:'./images/drugs.jpg',
+        color:'linear-gradient(to right, lightgreen, whitesmoke)'
     },
     {
         name:'Heat Stroke',
+        title:'The Dangers of Heat',
         effects:['Confusion','Coma','Dry Skin','Slurred Speach'],
         description:'Heat stroke is the most serious heat-related illness. It occurs when the body becomes unable to control its temperature: the body’s temperature rises rapidly, the sweating mechanism fails, and the body is unable to cool down. When heat stroke occurs, the body temperature can rise to 106°F or higher within 10 to 15 minutes. Heat stroke can cause death or permanent disability if emergency treatment is not given.',
         tags:['heat','stroke','stress','confusion','coma','dry skin','slurred speach'],
-        image:'./images/hot.jpg'
+        image:'./images/hot.jpg',
+        color:'linear-gradient(to right, skyblue, #a3f5ed)'
     },
     {
         name:'Aids',
+        title:'Careful Procreation',
         effects:['Rapid Weight loss','Recurring Fever or night sweats','Extreme unexplained tiredness','Swelling of lymph glands in armpits,groin,and neck','Prolonged Diahrea','Pneumonia',],
         description:'AIDS is a set of symptoms (or syndrome as opposed to a virus) caused by HIV. A person is said to have AIDS when their immune system is too weak to fight off infection, and they develop certain defining symptoms and illnesses. This is the last stage of HIV, when the infection is very advanced, and if left untreated will lead to death.',
         tags:['aids','hiv','weight loss','fever','tiredness','swollen','lymph glands','pneumonia','diahrea'],
-        image:'./images/condom.jpg'
+        image:'./images/condom.jpg',
+        color:'linear-gradient(to right, #c7ffb9, #a3f5ed)'
     },
     { 
         name:'Asthma',
+        title:'Does the Air Quality have you Feeeling blue?',
         effects:['difficulty breathing','chest pain','coughing','wheezing','phlegm'],
         description: `A condition in which a person's airways become inflamed, narrow and swell, and produce extra mucus, which makes it difficult to breathe.Asthma can be minor or it can interfere with daily activities. In some cases, it may lead to a life-threatening attack.`,
         tags:['difficulty breathing','chest pain','coughing','wheezing','phlegm','asthma','asthma attack'],
-        image:'./images/asthma.jpg'
-    },
-    {
-        name:'Meth',
-        effects:['sudden or severe weight loss', 'premature aging of the skin','slow healing sores','blackened rotting teeth','kidney failure','liver failure','hallucination','paranoia','death'],
-        description:`The use of Methamphetime(Meth) is dangerous as a highly addictive drug users will develop an increasing need for it to the point it will envelop most of their waking thoughts.It can develop a strong grip on an individuals mental and physical state. The addiction may lead many to engage in riskier behaviors in order to procure more and to neglect their responsabilities for their next rush.`,
-        tags:['Meth','Addiction','blackened rotting teeth','Sores','Paranoia','Hallucination','Methamphetime'],
-        image:'./images/'
-    },
-    {
-        name:'Heat Stroke',
-        effects:['Confusion','Coma','Dry Skin','Slurred Speach'],
-        description:'Heat stroke is the most serious heat-related illness. It occurs when the body becomes unable to control its temperature: the body’s temperature rises rapidly, the sweating mechanism fails, and the body is unable to cool down. When heat stroke occurs, the body temperature can rise to 106°F or higher within 10 to 15 minutes. Heat stroke can cause death or permanent disability if emergency treatment is not given.',
-        tags:['Heat','Stroke','Stress','Confusion','Coma','Dry Skin','Slurred Speach'],
-        image:'./images/'
+        image:'./images/asthma.jpg',
+        color:'linear-gradient(to right, orange, #a3f5ed)'
     }
 ]
