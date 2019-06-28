@@ -54,7 +54,8 @@ const issues = [
         description:'Heat stroke is the most serious heat-related illness. It occurs when the body becomes unable to control its temperature: the body’s temperature rises rapidly, the sweating mechanism fails, and the body is unable to cool down. When heat stroke occurs, the body temperature can rise to 106°F or higher within 10 to 15 minutes. Heat stroke can cause death or permanent disability if emergency treatment is not given.',
         tags:['heat','stroke','stress','confusion','coma','dry skin','slurred speach'],
         image:'./images/hot.jpg',
-        color:'linear-gradient(to right, skyblue, #a3f5ed)'
+        color:'linear-gradient(to right, skyblue, #a3f5ed)',
+        link:'Cooling Center Frank H. Ball Neighborhood Center'
     },
     {
         name:'Aids',
@@ -73,7 +74,7 @@ const issues = [
         Staying calm may prevent further tightening of your chest muscles and make your breathing easier. Get away from the trigger as soon as possible and go to an air-conditioned environment or any place with clean air.
         Seek emergency medical help. If the wheezing, coughing and breathing difficulty do not subside after a period of rest, seek immediate medical attention.`,
         tags:['difficulty breathing','chest pain','coughing','wheezing','phlegm','asthma','asthma attack'],
-        image:'./images/asthma.jpg',
+        image:'./images/attack.png',
         color:'linear-gradient(to right, orange, #a3f5ed)'
     },  
     { 

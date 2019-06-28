@@ -20,6 +20,7 @@ function createCards(issue,resource,index){
     const type = issue[index].name;
     const topCard = issue[index].title;
     const color = issue[index].color;
+    const place = issue[index].link;
     const pass=flexOrder;
 
     cardStyle.classList.add('heart');
@@ -42,7 +43,7 @@ function createCards(issue,resource,index){
     resoruces.classList.add('links');
     help.innerHTML='Resources';
     link.href='https://www.co.fresno.ca.us/departments/behavioral-health/substance-use-disorder-services';
-    link.innerHTML='Fresno Substance Use Disorder Services';
+    link.innerHTML=place;
 
     document.querySelector('#retro').appendChild(cardContainer);
     cardContainer.appendChild(cardStyle);
@@ -92,7 +93,7 @@ function createAllergy(order){
     cardContainer.style.order=order; 
     cardStyle.id='card3';
     imgContainer.classList.add('picContainer','pic1');
-    imgContainer.style.backgroundImage="url('./images/asthma.jpg')";
+    imgContainer.style.backgroundImage="url('./images/allergies.jpg')";
     infoContainer.classList.add('titleAndText');
     title.classList.add('title');
     title.innerHTML='Allergens Report';
