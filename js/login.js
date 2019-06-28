@@ -6,6 +6,6 @@ login.addEventListener('submit',(event)=>{
     const password = login['login-password'].value;
     auth.signInWithEmailAndPassword(email,password).then(cred=>{
         // login.reset();
-        window.location.replace("http://127.0.0.1:5500/home.html");
+        window.location.replace("https://goldteamnoinstructor.github.io/GoldTeamNoInstructor/home.html");
     })
 })

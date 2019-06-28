@@ -13,7 +13,7 @@ register.addEventListener('submit',(event)=>{
         const signup = document.querySelector('#firebase-register');
         // M.Modal.getInstance(signup).close();
         // register.reset();
-        window.location.replace("http://127.0.0.1:5500/home.html");
+        window.location.replace("https://goldteamnoinstructor.github.io/GoldTeamNoInstructor/home.html");
     });
 
     firebase.auth().onAuthStateChanged(function(user) {
