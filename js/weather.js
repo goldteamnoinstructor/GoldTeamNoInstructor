@@ -5,7 +5,7 @@ let apiData;
 
 
 function setup(){
-    fetch('http://dataservice.accuweather.com/forecasts/v1/daily/1day/327144?apikey=1j6yVYMscpQujmX4UWTplhqAUu3pp4oS&details=true')
+    fetch('https://dataservice.accuweather.com/forecasts/v1/daily/1day/327144?apikey=1j6yVYMscpQujmX4UWTplhqAUu3pp4oS&details=true')
     .then(response => {return response.json()})
     .then(data => {
         apiData = data;
